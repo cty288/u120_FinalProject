@@ -9,15 +9,17 @@ if(distance_to_object(player)<=50){
 		page_num++;
 		last_option_choice=option;
 		option=0;
-		typewriter_index=-1;
+		typewriter_index=0;
 		typewriter_msg="";
+		audio_play_sound(sound_talk,1,false);
 	}else if(mouse_check_button_pressed(mb_left)&&page_num>=0){
 		player.is_chatting=true;
 		page_num++;
 		last_option_choice=option;
 		option=0;
-		typewriter_index=-1;
+		typewriter_index=0;
 		typewriter_msg="";
+		audio_play_sound(sound_talk,1,false);
 	}
 }
 
