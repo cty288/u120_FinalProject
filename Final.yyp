@@ -1,5 +1,17 @@
 {
   "resources": [
+    {"id":{"name":"ease_in_expo","path":"scripts/ease_in_expo/ease_in_expo.yy",},"order":0,},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":1,},
+    {"id":{"name":"spr_player_down_2","path":"sprites/spr_player_down_2/spr_player_down_2.yy",},"order":2,},
+    {"id":{"name":"obj_obstacle_parent","path":"objects/obj_obstacle_parent/obj_obstacle_parent.yy",},"order":2,},
+    {"id":{"name":"font_message","path":"fonts/font_message/font_message.yy",},"order":0,},
+    {"id":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"order":3,},
+    {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},"order":0,},
+    {"id":{"name":"spr_chatbox","path":"sprites/spr_chatbox/spr_chatbox.yy",},"order":3,},
+    {"id":{"name":"spr_chatbox_next_page","path":"sprites/spr_chatbox_next_page/spr_chatbox_next_page.yy",},"order":4,},
+    {"id":{"name":"spr_test","path":"sprites/spr_test/spr_test.yy",},"order":0,},
+    {"id":{"name":"obj_npc_test","path":"objects/obj_npc_test/obj_npc_test.yy",},"order":4,},
+    {"id":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},"order":5,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
