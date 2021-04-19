@@ -1,29 +1,28 @@
+event_inherited();
 if(!player.is_chatting){
 	page_num=-1;
 	option=0;
+	label="";
 }
 
 if(distance_to_object(player)<=50){
 	if(keyboard_check_pressed(vk_space)){
-		player.is_chatting=true;
-		page_num++;
-		last_option_choice=option;
-		option=0;
-		typewriter_index=0;
-		typewriter_msg="";
-		audio_play_sound(sound_talk,1,false);
-	}else if(mouse_check_button_pressed(mb_left)&&page_num>=0){
-		player.is_chatting=true;
-		page_num++;
-		last_option_choice=option;
-		option=0;
-		typewriter_index=0;
-		typewriter_msg="";
-		audio_play_sound(sound_talk,1,false);
+		if(page_num<0){
+			go_to_next_page();
+		}else if(content_complete){
+			go_to_next_page();
+		}
+
+	}else if(mouse_check_button_pressed(mb_left)&&page_num>=0&&content_complete){
+		go_to_next_page();
+	}
+	
+	if(keyboard_check_pressed(vk_escape)){
+		stop_chat();
 	}
 }
 
-if(page_num>=0 && has_option){
+if(page_num>=0 && has_option && content_complete){
 	if(keyboard_check_pressed(vk_up)){
 		option--;
 		if(option<0){
@@ -36,12 +35,3 @@ if(page_num>=0 && has_option){
 	}
 }
 
-if(distance_to_object(player)<=50){
-	//show_debug_message(distance_to_object(player));
-	if(player.y-y>=0){
-		player.depth=-10;
-	}else{
-		player.depth=10;
-		show_debug_message(player.depth);
-	}
-}

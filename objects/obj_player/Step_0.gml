@@ -60,3 +60,22 @@ if(!is_chatting){
 
 
 }
+	
+if(player_speed_x>0){
+	sprite_index=spr_player_right;
+}else if(player_speed_x<0){
+	sprite_index=spr_player_left;
+}
+
+if(player_speed_y>0){
+	sprite_index=spr_player_down;
+}else if(player_speed_y<0){
+	sprite_index=spr_player_up;
+}
+
+if((player_speed_y==0 && player_speed_x==0)||is_chatting){
+	image_speed=0;
+	image_index=1;
+}else{
+	image_speed=1;
+}

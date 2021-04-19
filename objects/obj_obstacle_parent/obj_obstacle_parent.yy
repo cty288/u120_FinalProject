@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Base Objects (Parents)",
+    "path": "folders/Objects/Base Objects (Parents).yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_obstacle_parent",

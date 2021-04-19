@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Systemic  Objects (Managers)",
+    "path": "folders/Objects/Systemic  Objects (Managers).yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_camera",

@@ -4,7 +4,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_obstacle_parent",
+    "path": "objects/obj_obstacle_parent/obj_obstacle_parent.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -25,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Base Objects (Parents)",
+    "path": "folders/Objects/Base Objects (Parents).yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_npc_parent",

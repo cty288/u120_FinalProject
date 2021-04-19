@@ -1,5 +1,14 @@
+//DO NOT CHANGE THIS OBJECT!
+//to create an NPC, create another object and inherit this object
+//to add dialogue to that NPC, override draw_gui_event of that object
+//see obj_npc_test for a detailed example
+event_inherited();
 option=0;
 last_option_choice=0;
+
+label="";
+last_label="";
+
 option_num=0;
 player=instance_find(obj_player,0);
 page_num=-1;
@@ -9,10 +18,16 @@ typewriter_msg="";
 typewriter_index=0;
 typewriter_total=0;
 
+content_complete=false;
 
-//general show message function
-function show_dialogue_message(speaker_name,speaker_name_color,speaker_sprite,speaker_sprite_scale,
-message_show,message_scale, option_array,has_next_page){
+set_hideable(true);
+
+//general show message function, call this function for every dialogue. see obj_npc_test for a complete example
+//DO NOT MODIFY THIS!
+function show_dialogue_message(dialogue_label,speaker_name,speaker_name_color,speaker_sprite,
+speaker_sprite_scale,message_show,message_scale,option_array,has_next_page){
+	
+	label=dialogue_label;
 	typewriter_total=string_length(message_show);
 	if(has_next_page){
 		draw_sprite(spr_chatbox_next_page,-1,0,418);
@@ -20,9 +35,11 @@ message_show,message_scale, option_array,has_next_page){
 		draw_sprite(spr_chatbox,0,0,418);
 	}
 	if(typewriter_index<typewriter_total){
+		content_complete=false;
 		typewriter_index++;
 		typewriter_msg+=string_char_at(message_show,typewriter_index);
 	}else{
+		content_complete=true;
 		if(array_length(option_array)>0){
 			draw_set_font(font_message);
 			has_option=true
@@ -50,7 +67,26 @@ message_show,message_scale, option_array,has_next_page){
 function stop_chat(){
 	player.is_chatting=false;
 }
-//event specific to different npcs, need to be override.
+
+
+//DO NOT call this function in its children.
+function go_to_next_page(){
+	player.is_chatting=true;
+	page_num++;
+	last_option_choice=option;
+	last_label=label;
+		
+	option=0;
+	label="";
+	typewriter_index=0;
+	typewriter_msg="";
+	audio_play_sound(sound_talk,1,false);	
+}
+
+//event specific to different npcs, need to be override by its children.
+//last_option_choice: The option that the player chooses in the last page
+//last_label (unique): The dialogue label that the player saw in the last page
 function draw_gui_event(){
 
 }
+
