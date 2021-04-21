@@ -20,14 +20,17 @@ function add_to_inventory(object,num){
 	//show_debug_message(key);
 	if(ds_map_exists(inventory,key)){
 		ds_map_set(inventory,key,ds_map_find_value(inventory,key)+num);	
+		return ds_list_find_index(inventory_keys,key);
 	}else{
 		if(size<capacity){
 			show_debug_message("sss");
 			ds_map_add(inventory,key,num);
 			ds_list_add(inventory_keys,key);
 			size++;
+			return size-1;
 		}else{
 			//full
+			return -1;
 		}
 	}
 }
