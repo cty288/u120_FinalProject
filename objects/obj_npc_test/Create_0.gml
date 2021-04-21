@@ -22,7 +22,7 @@ function draw_gui_event(){
 		case 0:
 			//this contains three options
 			show_dialogue_message("a","Bad guy",c_yellow,spr_player_down,2,
-			"1+1=? \n test message test message test message test message",
+			"TA DA, HACKED BY SAMMIE",
 			1,page_0_option,true);
 		break;
 		case 1:
@@ -30,17 +30,17 @@ function draw_gui_event(){
 			switch(last_option_choice){
 				case 0:
 					show_dialogue_message("b","Bad guy",c_yellow,spr_player_down,2,
-					"Correct",
+					"TA DA, HACKED BY SAMMIE",
 					1,page_1_0_option,true);
 				break;
 				case 1:
 					show_dialogue_message("c","Bad guy",c_yellow,spr_player_down,2,
-					"You stupid",
+					"TA DA, HACKED BY SAMMIE",
 					1,page_1_1_option,true);
 				break;
 				case 2:
 					show_dialogue_message("d","Bad guy",c_yellow,spr_player_down,2,
-					"You stupid",
+					"TA DA, HACKED BY SAMMIE",
 					1,noone,true);
 				break;
 			}
