@@ -36,6 +36,7 @@ speaker_sprite_scale,message_show,message_scale,option_array,has_next_page){
 	}
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_top);
+	//
 	if(typewriter_index<typewriter_total){
 		content_complete=false;
 		typewriter_index++;
