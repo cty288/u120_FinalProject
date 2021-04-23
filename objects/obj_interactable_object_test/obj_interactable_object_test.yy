@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_heart",
-    "path": "sprites/spr_heart/spr_heart.yy",
+    "name": "spr_door",
+    "path": "sprites/spr_door/spr_door.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_collectable_object_parent",
-    "path": "objects/obj_collectable_object_parent/obj_collectable_object_parent.yy",
+    "name": "obj_interactable_object_parent",
+    "path": "objects/obj_interactable_object_parent/obj_interactable_object_parent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,7 +23,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_interactable_object_test","path":"objects/obj_interactable_object_test/obj_interactable_object_test.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +33,7 @@
     "path": "folders/Objects/Test Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_collectable_object_test_3",
+  "name": "obj_interactable_object_test",
   "tags": [],
   "resourceType": "GMObject",
 }

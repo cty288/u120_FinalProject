@@ -2,7 +2,7 @@
 
 // Inherit the parent event
 event_inherited();
-set_player_move_depth_distance(80);
+set_player_move_depth_distance(75);
 page_0_option[0]="2";
 page_0_option[1]="3";
 page_0_option[2]="998";

@@ -4,8 +4,13 @@ if(hideable){
 		if(player.y-y>=0){
 			player.depth=-10;
 		}else{
-			player.depth=10;
-			show_debug_message(player.depth);
+			if(place_meeting(x,y,player)){
+				player.depth=-10;
+			}else{
+				player.depth=10;
+			}
+
+
 		}
 	}
 

@@ -7,7 +7,7 @@ sprite_target_y=0;
 
 current_sprite_x=0;
 current_sprite_y=0;
-
+depth=100;
 draw=true;
 scale=1;
 function on_picked(){

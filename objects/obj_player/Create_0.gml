@@ -9,3 +9,4 @@ player_max_speed_x=3;
 player_max_speed_y=3;
 
 is_chatting=false;
+is_interacting=false;
