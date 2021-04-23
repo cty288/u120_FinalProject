@@ -1,7 +1,7 @@
 player_speed_x*=0.2;
 player_speed_y*=0.2;
 depth=-10;
-if(!is_chatting&&!is_interacting){
+if(!is_chatting&&!is_interacting&&!system_msg){
 	if(keyboard_check(ord("W"))){
 		player_speed_y-=acc;
 	}

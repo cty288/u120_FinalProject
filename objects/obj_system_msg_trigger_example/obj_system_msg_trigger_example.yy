@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_player_down",
-    "path": "sprites/spr_player_down/spr_player_down.yy",
+    "name": "spr_system_msg",
+    "path": "sprites/spr_system_msg/spr_system_msg.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_npc_parent",
-    "path": "objects/obj_npc_parent/obj_npc_parent.yy",
+    "name": "obj_system_msg_trigger_parent",
+    "path": "objects/obj_system_msg_trigger_parent/obj_system_msg_trigger_parent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,7 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_npc_test","path":"objects/obj_npc_test/obj_npc_test.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_system_msg_trigger_example","path":"objects/obj_system_msg_trigger_example/obj_system_msg_trigger_example.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +33,7 @@
     "path": "folders/Objects/Test Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_npc_test",
+  "name": "obj_system_msg_trigger_example",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -10,3 +10,4 @@ player_max_speed_y=3;
 
 is_chatting=false;
 is_interacting=false;
+system_msg=false;

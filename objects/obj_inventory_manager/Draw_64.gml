@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(!player.is_chatting){
+if(!player.is_chatting&&!player.system_msg){
 	draw_sprite(spr_game_inventory,0,30,camera_height-100);
 	draw_sprite(spr_inventory_selection,0,35+select_index*85,camera_height-95);
 	
