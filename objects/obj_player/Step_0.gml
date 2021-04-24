@@ -62,20 +62,20 @@ if(!is_chatting&&!is_interacting&&!system_msg){
 }
 	
 if(player_speed_x>0){
-	sprite_index=spr_player_right;
+	sprite_index=Right1;
 }else if(player_speed_x<0){
-	sprite_index=spr_player_left;
+	sprite_index=Left1;
 }
 
 if(player_speed_y>0){
-	sprite_index=spr_player_down;
+	sprite_index=Front1;
 }else if(player_speed_y<0){
-	sprite_index=spr_player_up;
+	sprite_index=Back1;
 }
 
 if((player_speed_y==0 && player_speed_x==0)||is_chatting){
 	image_speed=0;
 	image_index=1;
 }else{
-	image_speed=1;
+	image_speed=0.25;
 }
