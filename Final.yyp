@@ -23,6 +23,7 @@
     {"id":{"name":"obj_interactable_object_parent","path":"objects/obj_interactable_object_parent/obj_interactable_object_parent.yy",},"order":3,},
     {"id":{"name":"spr_inventory_selection","path":"sprites/spr_inventory_selection/spr_inventory_selection.yy",},"order":9,},
     {"id":{"name":"spr_msg_box_next_page","path":"sprites/spr_msg_box_next_page/spr_msg_box_next_page.yy",},"order":11,},
+    {"id":{"name":"obj_player2","path":"objects/obj_player2/obj_player2.yy",},"order":11,},
     {"id":{"name":"spr_chatbox_next_page","path":"sprites/spr_chatbox_next_page/spr_chatbox_next_page.yy",},"order":3,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":0,},
     {"id":{"name":"obj_interactable_object_test","path":"objects/obj_interactable_object_test/obj_interactable_object_test.yy",},"order":3,},
@@ -91,7 +92,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.1.542",
+    "IDEVersion": "2.3.2.560",
   },
   "resourceVersion": "1.4",
   "name": "Final",
