@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_coin_1",
-    "path": "sprites/spr_coin_1/spr_coin_1.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

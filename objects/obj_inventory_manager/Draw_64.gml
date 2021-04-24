@@ -16,6 +16,7 @@ if(!player.is_chatting&&!player.system_msg){
 			draw_set_halign(fa_right);
 			draw_set_valign(fa_bottom);
 			draw_set_font(font_inventory);
+			draw_set_color(c_white);
 			draw_text(120+85*i,camera_height-5,string(number));
 		//}
 

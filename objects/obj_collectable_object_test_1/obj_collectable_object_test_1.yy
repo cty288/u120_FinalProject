@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "shield",
-    "path": "sprites/shield/shield.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

@@ -1,4 +1,5 @@
 if(page_num>=0){
+	
 	draw_gui_event();
 	
 	if(has_option&&content_complete){
