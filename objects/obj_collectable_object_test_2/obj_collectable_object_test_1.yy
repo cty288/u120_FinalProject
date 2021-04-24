@@ -4,7 +4,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_collectable_object_parent",
+    "path": "objects/obj_collectable_object_parent/obj_collectable_object_parent.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -21,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Base Objects (Parents)",
-    "path": "folders/Objects/Base Objects (Parents).yy",
+    "name": "Test Objects",
+    "path": "folders/Objects/Test Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_collectable_object_test_1",

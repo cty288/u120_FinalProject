@@ -9,10 +9,18 @@ if(!player.is_chatting){
 		if(select_index<0){
 			select_index=capacity-1;
 		}
+		alarm[0]=1.5*room_speed;
+		selected_name=inventory_names[|select_index];
+		msg_show=true;
+		name_alpha=0;
 	}
 	if(keyboard_check_pressed(vk_right)){
 		select_index++;
 		select_index%=capacity;
+		alarm[0]=1.5*room_speed;
+		selected_name=inventory_names[|select_index];
+		msg_show=true;
+		name_alpha=0;
 	}
 	
 	if(keyboard_check_pressed(ord("Q"))){

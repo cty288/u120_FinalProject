@@ -1,12 +1,15 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_system_msg",
+    "path": "sprites/spr_system_msg/spr_system_msg.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_collectable_object_parent",
-    "path": "objects/obj_collectable_object_parent/obj_collectable_object_parent.yy",
+    "name": "obj_system_msg_trigger_parent",
+    "path": "objects/obj_system_msg_trigger_parent/obj_system_msg_trigger_parent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -20,7 +23,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_system_msg_trigger_example","path":"objects/obj_system_msg_trigger_example/obj_system_msg_trigger_example.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -28,7 +33,7 @@
     "path": "folders/Objects/Test Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_collectable_object_test_3",
+  "name": "obj_system_msg_trigger_example",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -36,7 +36,7 @@ function show_system_message(speaker_sprite,speaker_name,message_show,message_sc
 	}
 	draw_set_font(font_message);
 	if(speaker_name!=""){
-		draw_text_transformed_color(40,435,speaker_name+":",1.5,1.5,0,speaker_name_color,speaker_name_color,speaker_name_color,speaker_name_color,1);
+		draw_text_transformed_color(40,435,speaker_name+":",1.5,1.5,0,c_yellow,c_yellow,c_yellow,c_yellow,1);
 	}
 	draw_set_color(c_white);
 	draw_text_ext_transformed(40,505,typewriter_msg,40,1300,message_scale,message_scale,0);

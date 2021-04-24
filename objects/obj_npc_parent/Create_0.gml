@@ -48,7 +48,11 @@ speaker_sprite_scale,message_show,message_scale,option_array,has_next_page){
 			has_option=true
 			option_num=array_length(option_array);
 			for(var i=0; i<array_length(option_array);i++){
-				draw_text_transformed_color(120,600+i*35,"- "+option_array[i],1,1,0,c_aqua,c_aqua,c_aqua,c_aqua,1);
+				var c=c_aqua;
+				if(option==i){
+					c=c_white
+				}
+				draw_text_transformed_color(120,600+i*35,"- "+option_array[i],1,1,0,c,c,c,c,1);
 			}
 		}else{
 			has_option=false;

@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "n0201",
+    "path": "sprites/n0201/n0201.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -22,7 +25,9 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"object_name_this","path":"objects/obj_collectable_object_parent/obj_collectable_object_parent.yy",},"objectId":{"name":"obj_collectable_object_parent","path":"objects/obj_collectable_object_parent/obj_collectable_object_parent.yy",},"value":"test2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Test Objects",
     "path": "folders/Objects/Test Objects.yy",

@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "deadmogeko01_01",
+    "path": "sprites/deadmogeko01_01/deadmogeko01_01.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -22,7 +25,9 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"object_name_this","path":"objects/obj_collectable_object_parent/obj_collectable_object_parent.yy",},"objectId":{"name":"obj_collectable_object_parent","path":"objects/obj_collectable_object_parent/obj_collectable_object_parent.yy",},"value":"test1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Test Objects",
     "path": "folders/Objects/Test Objects.yy",

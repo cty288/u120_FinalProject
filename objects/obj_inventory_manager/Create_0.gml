@@ -11,11 +11,15 @@ size=0;
 
 inventory=ds_map_create();
 inventory_keys=ds_list_create();
+inventory_names=ds_list_create();
 
+selected_name="";
+msg_show=false;
+name_alpha=0;
 //item sprite <=80*80
 
 
-function add_to_inventory(obj,number){
+function add_to_inventory(obj,number,obj_name_this){
 	var key=object_get_name(obj.object_index);
 	//show_debug_message(key);
 	if(ds_map_exists(inventory,key)){
@@ -26,6 +30,7 @@ function add_to_inventory(obj,number){
 			show_debug_message("sss");
 			ds_map_add(inventory,key,number);
 			ds_list_add(inventory_keys,key);
+			ds_list_add(inventory_names,obj_name_this);
 			size++;
 			return size-1;
 		}else{
@@ -44,20 +49,14 @@ function remove_from_inventory(obj,number){
 				ds_map_delete(inventory,key);
 				var index = ds_list_find_index(inventory_keys,key);
 				ds_list_delete(inventory_keys,index);
-				/*if(index!=size-1){
-					//rearrange inventory_keys
-					for(var i=index; i<size-1; i++){
-						var temp=inventory_keys[|i+1];
-						inventory_keys[|i]=temp;
-					}
-				}*/
-
+				ds_list_delete(inventory_names,index);
 				size--;
 			}
+			return true;
 		}else{ //not enough
-		
+			return false;
 		}
 	}else{ //doesn't exist
-		
+		return false;
 	}
 }

@@ -21,5 +21,25 @@ if(!player.is_chatting&&!player.system_msg){
 		//}
 
 	}
+	if(selected_name!=undefined){
+			if(msg_show){
+			draw_set_font(font_inventory);
+			draw_set_halign(fa_middle);
+			if(name_alpha<=1){
+				name_alpha+=0.05;
+			}
+		
+			draw_text_color(camera_get_view_width(view_camera[0])/2,
+			camera_height-110,
+			selected_name,c_white,c_white,c_white,c_white,name_alpha);
+		}else{
+			name_alpha-=0.05;
+			draw_set_font(font_inventory);
+			draw_set_halign(fa_middle);
+			draw_text_color(camera_get_view_width(view_camera[0])/2,
+			camera_height-110,
+			selected_name,c_white,c_white,c_white,c_white,name_alpha);
+		}
+	}
 
 }
