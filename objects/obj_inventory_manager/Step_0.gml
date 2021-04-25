@@ -1,11 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
-camera_width=camera_get_view_width(view_camera[0]);
-camera_height=camera_get_view_height(view_camera[0]);
+camera_width=view_get_wport(view_wport[0]);
+camera_height=view_get_hport(view_hport[0]);
 
 if(!instance_exists(otext)){
 	if(keyboard_check_pressed(vk_left)){
-		select_index--;
+		//select_index--;
 		if(select_index<0){
 			select_index=capacity-1;
 		}
