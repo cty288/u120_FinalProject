@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 779,
+  "bbox_right": 99,
   "bbox_top": 0,
   "bbox_bottom": 99,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 780,
+  "width": 100,
   "height": 100,
   "textureGroupId": {
     "name": "Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7aa71f2f-7a7f-4437-96d0-004805952d25","path":"sprites/spr_game_inventory/spr_game_inventory.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7aa71f2f-7a7f-4437-96d0-004805952d25","path":"sprites/spr_game_inventory/spr_game_inventory.yy",},"LayerId":{"name":"2b42b4ba-1cf9-45c5-8099-52aca42978b7","path":"sprites/spr_game_inventory/spr_game_inventory.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_game_inventory","path":"sprites/spr_game_inventory/spr_game_inventory.yy",},"resourceVersion":"1.0","name":"7aa71f2f-7a7f-4437-96d0-004805952d25","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6cdc92f9-8a7a-4f38-90bd-a028f1a1a127","path":"sprites/Box/Box.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6cdc92f9-8a7a-4f38-90bd-a028f1a1a127","path":"sprites/Box/Box.yy",},"LayerId":{"name":"c175a421-4100-4819-8279-d8518b7adf8e","path":"sprites/Box/Box.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Box","path":"sprites/Box/Box.yy",},"resourceVersion":"1.0","name":"6cdc92f9-8a7a-4f38-90bd-a028f1a1a127","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_game_inventory","path":"sprites/spr_game_inventory/spr_game_inventory.yy",},
+    "spriteId": {"name":"Box","path":"sprites/Box/Box.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"0d382928-d555-4c01-9fff-d2d9266342e5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7aa71f2f-7a7f-4437-96d0-004805952d25","path":"sprites/spr_game_inventory/spr_game_inventory.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0c35ef4d-97c2-4f01-8b97-04a052fcd978","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6cdc92f9-8a7a-4f38-90bd-a028f1a1a127","path":"sprites/Box/Box.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_game_inventory","path":"sprites/spr_game_inventory/spr_game_inventory.yy",},
+    "parent": {"name":"Box","path":"sprites/Box/Box.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_game_inventory",
+    "name": "Box",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2b42b4ba-1cf9-45c5-8099-52aca42978b7","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c175a421-4100-4819-8279-d8518b7adf8e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "UI",
-    "path": "folders/Sprites/UI.yy",
+    "name": "Final",
+    "path": "Final.yyp",
   },
   "resourceVersion": "1.0",
-  "name": "spr_game_inventory",
+  "name": "Box",
   "tags": [],
   "resourceType": "GMSprite",
 }

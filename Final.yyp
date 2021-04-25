@@ -155,6 +155,7 @@
     {"id":{"name":"y011","path":"sprites/y011/y011.yy",},"order":2,},
     {"id":{"name":"obj_collectable_object_test_1","path":"objects/obj_collectable_object_test_1/obj_collectable_object_test_1.yy",},"order":0,},
     {"id":{"name":"path_castle","path":"rooms/path_castle/path_castle.yy",},"order":3,},
+    {"id":{"name":"Box","path":"sprites/Box/Box.yy",},"order":16,},
     {"id":{"name":"otrigger","path":"objects/otrigger/otrigger.yy",},"order":0,},
     {"id":{"name":"menu_quit","path":"sounds/menu_quit/menu_quit.yy",},"order":3,},
     {"id":{"name":"oposter_pathforest07","path":"objects/oposter_pathforest07/oposter_pathforest07.yy",},"order":12,},
