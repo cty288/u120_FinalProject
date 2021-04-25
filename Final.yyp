@@ -212,6 +212,7 @@
     {"id":{"name":"y035","path":"sprites/y035/y035.yy",},"order":28,},
     {"id":{"name":"y015","path":"sprites/y015/y015.yy",},"order":6,},
     {"id":{"name":"spr_chatbox","path":"sprites/spr_chatbox/spr_chatbox.yy",},"order":1,},
+    {"id":{"name":"add_objects","path":"objects/add_objects/add_objects.yy",},"order":23,},
     {"id":{"name":"obj_system_msg_trigger_parent","path":"objects/obj_system_msg_trigger_parent/obj_system_msg_trigger_parent.yy",},"order":3,},
     {"id":{"name":"talkCut","path":"scripts/talkCut/talkCut.yy",},"order":18,},
     {"id":{"name":"mogeko01_01","path":"sprites/mogeko01_01/mogeko01_01.yy",},"order":0,},
