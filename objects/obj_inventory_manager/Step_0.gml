@@ -5,7 +5,7 @@ camera_height=view_get_hport(view_hport[0]);
 
 if(!instance_exists(otext)){
 	if(keyboard_check_pressed(vk_left)){
-		//select_index--;
+		select_index--;
 		if(select_index<0){
 			select_index=capacity-1;
 		}

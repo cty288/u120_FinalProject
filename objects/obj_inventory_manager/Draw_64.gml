@@ -12,16 +12,18 @@ if(!instance_exists(otext)&&!instance_exists(omessage)){
 			var obj_sprite=obj.sprite_index;
 			var number=inventory[?inventory_keys[|i]];
 		
-			draw_sprite(obj_sprite,0,35+5+85*i,camera_height-90);
+			draw_sprite_stretched(obj_sprite,0,35+5+85*i,camera_height-100,70,70);
 		
 			draw_set_halign(fa_right);
 			draw_set_valign(fa_bottom);
-			draw_set_font(font_inventory);
+			draw_set_font(font_inventory_big);
 			draw_set_color(c_white);
-			draw_text(120+85*i,camera_height-5,string(number));
+
+			draw_text(30+90*0.8+85*i*0.8,camera_height-20,string(number));
 		//}
 
 	}
+
 	if(selected_name!=undefined){
 			if(msg_show){
 			draw_set_font(font_inventory);

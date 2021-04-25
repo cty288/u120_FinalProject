@@ -62,6 +62,7 @@
     {"id":{"name":"deadmogeko01_01","path":"sprites/deadmogeko01_01/deadmogeko01_01.yy",},"order":0,},
     {"id":{"name":"mogeko01","path":"objects/mogeko01/mogeko01.yy",},"order":0,},
     {"id":{"name":"y047","path":"sprites/y047/y047.yy",},"order":41,},
+    {"id":{"name":"font_inventory_big","path":"fonts/font_inventory_big/font_inventory_big.yy",},"order":3,},
     {"id":{"name":"moge_mogegegege","path":"sounds/moge_mogegegege/moge_mogegegege.yy",},"order":8,},
     {"id":{"name":"message","path":"sounds/message/message.yy",},"order":4,},
     {"id":{"name":"spr_system_msg","path":"sprites/spr_system_msg/spr_system_msg.yy",},"order":5,},
@@ -454,7 +455,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.2.560",
+    "IDEVersion": "2.3.1.542",
   },
   "resourceVersion": "1.4",
   "name": "Final",
