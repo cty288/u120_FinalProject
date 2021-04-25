@@ -196,6 +196,7 @@
     {"id":{"name":"y045","path":"sprites/y045/y045.yy",},"order":39,},
     {"id":{"name":"m02","path":"sprites/m02/m02.yy",},"order":10,},
     {"id":{"name":"YONAKA06","path":"sprites/YONAKA06/YONAKA06.yy",},"order":5,},
+    {"id":{"name":"createCut","path":"scripts/createCut/createCut.yy",},"order":27,},
     {"id":{"name":"roomCut","path":"scripts/roomCut/roomCut.yy",},"order":14,},
     {"id":{"name":"C_tileset","path":"tilesets/C_tileset/C_tileset.yy",},"order":1,},
     {"id":{"name":"y036","path":"sprites/y036/y036.yy",},"order":29,},
