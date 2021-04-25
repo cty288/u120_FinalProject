@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-camera_width=camera_get_view_width(view_camera[0]);
-camera_height=camera_get_view_height(view_camera[0]);
+camera_width=view_get_wport(view_wport[0]);
+camera_height=view_get_hport(view_hport[0]);
 
 player=instance_find(obj_player,0);
 

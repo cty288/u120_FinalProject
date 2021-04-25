@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 if(!instance_exists(otext)&&!instance_exists(omessage)){
-	draw_sprite(spr_game_inventory162,0,30,camera_height-50);
-	draw_sprite(spr_inventory_selection_strip2,image_index,30+2+select_index*85*0.4,camera_height-50+2);
+	draw_sprite_ext(spr_game_inventory162,0,30,camera_height-100,2,2,0,c_white,1);
+	draw_sprite_ext(spr_inventory_selection_strip2,image_index,30+4+select_index*85*0.4*2,camera_height-100+2*2,2,2,0,c_white,1);
 	
 	
 	for(var i=0; i<size; i++){
