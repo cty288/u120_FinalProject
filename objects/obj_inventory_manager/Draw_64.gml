@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if(!instance_exists(otext)&&!instance_exists(omessage)){
 	draw_sprite(spr_game_inventory162,0,30,camera_height-50);
-	draw_sprite(spr_inventory_selection_strip2,0,30+5+select_index*85*0.4,camera_height-50+5);
+	draw_sprite(spr_inventory_selection_strip2,image_index,30+2+select_index*85*0.4,camera_height-50+2);
 	
 	
 	for(var i=0; i<size; i++){
