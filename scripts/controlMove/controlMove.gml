@@ -48,7 +48,7 @@ function controlMove() {
 
 	if prem=1{
 
-	            if keyboard_check(vk_right){
+	            if keyboard_check(ord("D")){
 	                if !keyboard_check(vk_shift){
 	                    if !place_meeting(x+32,y,oSolid){
 	                        mtr=8
@@ -75,7 +75,7 @@ function controlMove() {
 	                }
 	            }
             
-	            else if keyboard_check(vk_left){
+	            else if keyboard_check(ord("A")){
 	                if !keyboard_check(vk_shift){
 	                    if !place_meeting(x-32,y,oSolid){
 	                        mtl=8
@@ -102,7 +102,7 @@ function controlMove() {
 	                }
 	            }
             
-	            else if keyboard_check(vk_up){
+	            else if keyboard_check(ord("W")){
 	                if !keyboard_check(vk_shift){
 	                    if !place_meeting(x,y-32,oSolid){
 	                        mtu=8
@@ -125,7 +125,7 @@ function controlMove() {
 	                }
 	            }
             
-	            else if keyboard_check(vk_down){
+	            else if keyboard_check(ord("S")){
 	                if !keyboard_check(vk_shift){
 	                    if !place_meeting(x,y+32,oSolid){
 	                        mtd=8
@@ -152,7 +152,7 @@ function controlMove() {
 
 	else if prem=0{
     
-	            if keyboard_check(vk_up){
+	            if keyboard_check(ord("W")){
 	                if !keyboard_check(vk_shift){
 	                    if !place_meeting(x,y-32,oSolid){
 	                        mtu=8
@@ -179,7 +179,7 @@ function controlMove() {
 	                }
 	            }
             
-	            else if keyboard_check(vk_down){
+	            else if keyboard_check(ord("S")){
 	                if !keyboard_check(vk_shift){
 	                    if !place_meeting(x,y+32,oSolid){
 	                        mtd=8
@@ -206,7 +206,7 @@ function controlMove() {
 	                }
 	            }
             
-	            else if keyboard_check(vk_right){
+	            else if keyboard_check(ord("D")){
 	                if !keyboard_check(vk_shift){
 	                    if !place_meeting(x+32,y,oSolid){
 	                        mtr=8
@@ -229,7 +229,7 @@ function controlMove() {
 	                }
 	            }
             
-	            else if keyboard_check(vk_left){
+	            else if keyboard_check(ord("A")){
 	                if !keyboard_check(vk_shift){
 	                    if !place_meeting(x-32,y,oSolid){
 	                        mtl=8

@@ -2,7 +2,7 @@ draw_self()
 
 draw_set_halign(fa_left)
 draw_set_colour(c_black)
-draw_set_font(font_inventory)
+draw_set_font(font0)
 draw_set_valign(fa_top)
 
 textcount+=1
