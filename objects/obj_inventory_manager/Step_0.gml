@@ -3,7 +3,7 @@
 camera_width=camera_get_view_width(view_camera[0]);
 camera_height=camera_get_view_height(view_camera[0]);
 
-if(!player.is_chatting){
+if(!instance_exists(otext)){
 	if(keyboard_check_pressed(vk_left)){
 		select_index--;
 		if(select_index<0){
