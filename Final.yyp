@@ -140,6 +140,7 @@
     {"id":{"name":"Left1","path":"sprites/Left1/Left1.yy",},"order":10,},
     {"id":{"name":"spr_inventory_selection_strip2","path":"sprites/spr_inventory_selection_strip2/spr_inventory_selection_strip2.yy",},"order":13,},
     {"id":{"name":"fnt_dialogue","path":"fonts/fnt_dialogue/fnt_dialogue.yy",},"order":1,},
+    {"id":{"name":"removeInventoryCut","path":"scripts/removeInventoryCut/removeInventoryCut.yy",},"order":28,},
     {"id":{"name":"sinteract","path":"sprites/sinteract/sinteract.yy",},"order":1,},
     {"id":{"name":"y046","path":"sprites/y046/y046.yy",},"order":40,},
     {"id":{"name":"font_inventory","path":"fonts/font_inventory/font_inventory.yy",},"order":1,},
