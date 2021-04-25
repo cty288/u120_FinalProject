@@ -3,5 +3,5 @@
 event_inherited();
 
 text_info=[
-	["PLAYER",g01,"Beary bear."]
+	["PLAYER",g01,"Beary bear."],
 	]

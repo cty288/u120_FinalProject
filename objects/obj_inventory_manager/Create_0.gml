@@ -3,7 +3,7 @@
 camera_width=view_get_wport(view_wport[0]);
 camera_height=view_get_hport(view_hport[0]);
 
-player=instance_find(obj_player,0);
+player=instance_find(oplayer,0);
 
 select_index=0;
 capacity=9;
