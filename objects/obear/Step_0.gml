@@ -1,4 +1,4 @@
 event_inherited()
 
-addChoice(0,"Pickup","Maybe later",choice_exit,choice_exit)
+addChoice(0,"Pickup","Maybe later",add_bear,choice_exit)
 
