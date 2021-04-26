@@ -25,6 +25,12 @@ if keyboard_check_pressed(vk_space) or keyboard_check_pressed(vk_enter){
         case 1:
             instance_create(x,y,choice[1])
             break;
+		case 2:
+			 instance_create(x,y,choice[2])
+		break;
+		case 3:
+			 instance_create(x,y,choice[3])
+		break;
     }
     
     
