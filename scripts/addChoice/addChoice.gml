@@ -33,6 +33,8 @@ function addChoice() {
 	            }
 	            oplayer.mystate=1
 	            break;
+			case 7: break;
+			case 9: break;
         
 	    }
     
