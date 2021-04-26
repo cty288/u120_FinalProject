@@ -25,7 +25,7 @@ function addChoice() {
 	            if !instance_exists(ochoice)
 	            instance_create(240,240,ochoice);
 	            with ochoice{
-	                menu_max=1
+	                menu_max=2
 	                option[0]=arg[1]
 	                option[1]=arg[2]
 	                choice[0]=arg[3]
@@ -33,6 +33,38 @@ function addChoice() {
 	            }
 	            oplayer.mystate=1
 	            break;
+			case 7: break;
+		            if !instance_exists(ochoice)
+		            instance_create(240,240,ochoice);
+		            with ochoice{
+		                menu_max=3
+		                option[0]=arg[1]
+		                option[1]=arg[2]
+						option[2]=arg[3]
+		                choice[0]=arg[4]
+		                choice[1]=arg[5]
+						choice[2]=arg[6]
+						
+		            }
+		            oplayer.mystate=1
+	            break;
+			case 9: 
+					if !instance_exists(ochoice)
+		            instance_create(240,240,ochoice);
+		            with ochoice{
+		                menu_max=4
+		                option[0]=arg[1]
+		                option[1]=arg[2]
+						option[2]=arg[3]
+						option[3]=arg[4]
+		                choice[0]=arg[5]
+		                choice[1]=arg[6]
+						choice[2]=arg[7]
+						choice[3]=arg[8]
+						
+		            }
+		            oplayer.mystate=1
+			break;
         
 	    }
     
