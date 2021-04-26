@@ -32,7 +32,7 @@
     "spriteId": {"name":"sbox1","path":"sprites/sbox1/sbox1.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 0.125,
+    "playbackSpeed": 1.0,
     "playbackSpeedType": 1,
     "autoRecord": true,
     "volume": 1.0,
@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"47a480ef-7ff7-4e7a-89e1-285c30e64410","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "UI",
     "path": "folders/SamProject/Sprites/UI.yy",

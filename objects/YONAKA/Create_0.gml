@@ -1,5 +1,7 @@
 event_inherited()
 
+room_speed=30
+
 prem=0
 
 mysprite[0]=noone
