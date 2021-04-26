@@ -1,0 +1,388 @@
+Font font0 has been converted to font family Lucida Console (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\font0\font0.gms1.png
+Converting GML script: ${project_dir}\objects\obj_controller_brightness_contrast\Create_0.gml
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 23: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 23: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 24: view_surface_id[0] = surf -> __view_set( e__VW.SurfaceID, 0, surf )
+
+Converting GML script: ${project_dir}\objects\obj_controller_brightness_contrast\Step_0.gml
+Converted string - line 1: 'Q' -> "Q"
+Converted string - line 2: 'A' -> "A"
+Converted string - line 4: 'W' -> "W"
+Converted string - line 5: 'S' -> "S"
+
+Converting GML script: ${project_dir}\objects\obj_controller_brightness_contrast\Draw_64.gml
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_controller_brightness_contrast\KeyRelease_16.gml
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_player_brightness_contrast\Create_0.gml
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_controller_emboss\Create_0.gml
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 17: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 17: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 18: view_surface_id[0] = surf -> __view_set( e__VW.SurfaceID, 0, surf )
+
+Converting GML script: ${project_dir}\objects\obj_controller_emboss\Draw_64.gml
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_player_emboss\Create_0.gml
+Converted builtin - line 3: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_controller_gaussian_blur\Create_0.gml
+Converted builtin - line 5: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 13: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 15: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 6: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 13: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 15: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 16: view_surface_id[0] = surf -> __view_set( e__VW.SurfaceID, 0, surf )
+
+Converting GML script: ${project_dir}\objects\obj_controller_gaussian_blur\Step_0.gml
+Converted string - line 1: 'Q' -> "Q"
+Converted string - line 2: 'A' -> "A"
+
+Converting GML script: ${project_dir}\objects\obj_controller_gaussian_blur\Draw_64.gml
+Converted builtin - line 1: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_player_gaussian_blur\Create_0.gml
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_controller_greyscale\Create_0.gml
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 20: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 20: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 21: view_surface_id[0] = surf -> __view_set( e__VW.SurfaceID, 0, surf )
+
+Converting GML script: ${project_dir}\objects\obj_controller_greyscale\Step_0.gml
+Converted string - line 1: 'Q' -> "Q"
+Converted string - line 2: 'A' -> "A"
+
+Converting GML script: ${project_dir}\objects\obj_controller_greyscale\Draw_64.gml
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_player_greyscale\Create_0.gml
+Converted builtin - line 3: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_controller_invert\Create_0.gml
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 17: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 17: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 18: view_surface_id[0] = surf -> __view_set( e__VW.SurfaceID, 0, surf )
+
+Converting GML script: ${project_dir}\objects\obj_controller_invert\Draw_64.gml
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_player_invert\Create_0.gml
+Converted builtin - line 3: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_controller_LED_effect\Create_0.gml
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 23: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 23: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 24: view_surface_id[0] = surf -> __view_set( e__VW.SurfaceID, 0, surf )
+
+Converting GML script: ${project_dir}\objects\obj_controller_LED_effect\Step_0.gml
+Converted string - line 1: 'Q' -> "Q"
+Converted string - line 2: 'A' -> "A"
+Converted string - line 4: 'W' -> "W"
+Converted string - line 5: 'S' -> "S"
+
+Converting GML script: ${project_dir}\objects\obj_controller_LED_effect\Draw_64.gml
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_player_LED_effect\Create_0.gml
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_controller_magnify\Create_0.gml
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 26: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 26: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 27: view_surface_id[0] = surf -> __view_set( e__VW.SurfaceID, 0, surf )
+
+Converting GML script: ${project_dir}\objects\obj_controller_magnify\Step_0.gml
+Converted string - line 1: 'Q' -> "Q"
+Converted string - line 2: 'A' -> "A"
+Converted string - line 4: 'W' -> "W"
+Converted string - line 5: 'S' -> "S"
+Converted string - line 7: 'E' -> "E"
+Converted string - line 8: 'D' -> "D"
+
+Converting GML script: ${project_dir}\objects\obj_controller_magnify\Draw_64.gml
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_player_magnify\Create_0.gml
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_controller_mosaic\Create_0.gml
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 20: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 20: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 21: view_surface_id[0] = surf -> __view_set( e__VW.SurfaceID, 0, surf )
+
+Converting GML script: ${project_dir}\objects\obj_controller_mosaic\Step_0.gml
+Converted string - line 1: 'Q' -> "Q"
+Converted string - line 2: 'A' -> "A"
+
+Converting GML script: ${project_dir}\objects\obj_controller_mosaic\Draw_64.gml
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_player_mosaic\Create_0.gml
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_controller_posterization\Create_0.gml
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 23: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 23: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 24: view_surface_id[0] = surf -> __view_set( e__VW.SurfaceID, 0, surf )
+
+Converting GML script: ${project_dir}\objects\obj_controller_posterization\Step_0.gml
+Converted string - line 1: 'Q' -> "Q"
+Converted string - line 2: 'A' -> "A"
+Converted string - line 4: 'W' -> "W"
+Converted string - line 5: 'S' -> "S"
+
+Converting GML script: ${project_dir}\objects\obj_controller_posterization\Draw_64.gml
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_player_posterization\Create_0.gml
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_controller_ripple\Create_0.gml
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 26: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 26: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 27: view_surface_id[0] = surf -> __view_set( e__VW.SurfaceID, 0, surf )
+
+Converting GML script: ${project_dir}\objects\obj_controller_ripple\Step_0.gml
+Converted string - line 1: 'Q' -> "Q"
+Converted string - line 2: 'A' -> "A"
+Converted string - line 4: 'W' -> "W"
+Converted string - line 5: 'S' -> "S"
+Converted string - line 7: 'E' -> "E"
+Converted string - line 8: 'D' -> "D"
+
+Converting GML script: ${project_dir}\objects\obj_controller_ripple\Draw_64.gml
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_player_ripple\Create_0.gml
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_controller_scanlines\Create_0.gml
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 17: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 17: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 18: view_surface_id[0] = surf -> __view_set( e__VW.SurfaceID, 0, surf )
+
+Converting GML script: ${project_dir}\objects\obj_controller_scanlines\Draw_64.gml
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_player_scanlines\Create_0.gml
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_controller_sepia\Create_0.gml
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 20: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 20: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 21: view_surface_id[0] = surf -> __view_set( e__VW.SurfaceID, 0, surf )
+
+Converting GML script: ${project_dir}\objects\obj_controller_sepia\Step_0.gml
+Converted string - line 1: 'Q' -> "Q"
+Converted string - line 2: 'A' -> "A"
+
+Converting GML script: ${project_dir}\objects\obj_controller_sepia\Draw_64.gml
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_player_sepia\Create_0.gml
+Converted builtin - line 3: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_controller_shockwave\Create_0.gml
+Converted builtin - line 9: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 10: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 13: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 30: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 14: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 30: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 31: view_surface_id[0] = surf -> __view_set( e__VW.SurfaceID, 0, surf )
+Converted description /// @description Shader uniform setup
+
+Converting GML script: ${project_dir}\objects\obj_controller_shockwave\Step_0.gml
+Converted builtin - line 15: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 16: view_yview -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Keyboard checks
+Converted string - line 3: 'Q' -> "Q"
+Converted string - line 4: 'A' -> "A"
+Converted string - line 6: 'W' -> "W"
+Converted string - line 7: 'S' -> "S"
+Converted string - line 9: 'E' -> "E"
+Converted string - line 10: 'D' -> "D"
+
+Converting GML script: ${project_dir}\objects\obj_controller_shockwave\Draw_64.gml
+Converted description /// @description Fullscreen draw
+
+Converting GML script: ${project_dir}\objects\obj_player_shockwave\Create_0.gml
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_controller_sketch\Create_0.gml
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 20: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 20: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 21: view_surface_id[0] = surf -> __view_set( e__VW.SurfaceID, 0, surf )
+
+Converting GML script: ${project_dir}\objects\obj_controller_sketch\Step_0.gml
+Converted string - line 1: 'Q' -> "Q"
+Converted string - line 2: 'A' -> "A"
+
+Converting GML script: ${project_dir}\objects\obj_controller_sketch\Draw_64.gml
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_player_sketch\Create_0.gml
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_controller_thermal\Create_0.gml
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 17: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 17: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 18: view_surface_id[0] = surf -> __view_set( e__VW.SurfaceID, 0, surf )
+
+Converting GML script: ${project_dir}\objects\obj_controller_thermal\Draw_64.gml
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_player_thermal\Create_0.gml
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_controller_wave\Create_0.gml
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 26: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 26: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 27: view_surface_id[0] = surf -> __view_set( e__VW.SurfaceID, 0, surf )
+
+Converting GML script: ${project_dir}\objects\obj_controller_wave\Step_0.gml
+Converted string - line 1: 'Q' -> "Q"
+Converted string - line 2: 'A' -> "A"
+Converted string - line 4: 'W' -> "W"
+Converted string - line 5: 'S' -> "S"
+Converted string - line 7: 'E' -> "E"
+Converted string - line 8: 'D' -> "D"
+
+Converting GML script: ${project_dir}\objects\obj_controller_wave\Draw_64.gml
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_player_wave\Create_0.gml
+Converted builtin - line 3: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_controller_radial_blur\Create_0.gml
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 23: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 23: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 24: view_surface_id[0] = surf -> __view_set( e__VW.SurfaceID, 0, surf )
+
+Converting GML script: ${project_dir}\objects\obj_controller_radial_blur\Step_0.gml
+Converted string - line 1: 'Q' -> "Q"
+Converted string - line 2: 'A' -> "A"
+Converted string - line 4: 'W' -> "W"
+Converted string - line 5: 'S' -> "S"
+
+Converting GML script: ${project_dir}\objects\obj_controller_radial_blur\Draw_64.gml
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_player_radial_blur\Create_0.gml
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_controller_refraction\Create_0.gml
+Converted builtin - line 4: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 22: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 5: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 22: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 23: view_surface_id[0] = surf -> __view_set( e__VW.SurfaceID, 0, surf )
+
+Converting GML script: ${project_dir}\objects\obj_controller_refraction\Step_0.gml
+Converted string - line 1: 'Q' -> "Q"
+Converted string - line 2: 'A' -> "A"
+
+Converting GML script: ${project_dir}\objects\obj_controller_refraction\Draw_64.gml
+Converted builtin - line 2: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_player_refraction\Create_0.gml
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Added compatibility script 'background/background_get_height.gml'
+Added compatibility script 'background/background_get_texture.gml'
+Added compatibility script 'background/background_get_width.gml'
+Added compatibility script 'background/draw_background_tiled_ext.gml'
+Added compatibility script 'texture/texture_set_repeat.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'

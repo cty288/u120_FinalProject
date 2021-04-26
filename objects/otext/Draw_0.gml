@@ -8,8 +8,6 @@ draw_set_valign(fa_top)
 textcount+=1
 texttype=string_copy(text,1,textcount)
 
-draw_text(x+320,y,image_speed)
-
 switch(array_length_1d(current_text)){
 
 case 1:

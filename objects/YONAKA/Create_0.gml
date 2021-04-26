@@ -1,5 +1,5 @@
 event_inherited()
-
+//application_surface_draw_enable(false);
 room_speed=30
 
 prem=0
