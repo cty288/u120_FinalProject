@@ -41,7 +41,7 @@
     "spriteId": {"name":"sbox5","path":"sprites/sbox5/sbox5.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 1.0,
+    "playbackSpeed": 0.125,
     "playbackSpeedType": 1,
     "autoRecord": true,
     "volume": 1.0,

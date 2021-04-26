@@ -1,5 +1,5 @@
 {
-  "bboxMode": 2,
+  "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
   "origin": 0,
@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 31,
-  "bbox_top": 0,
-  "bbox_bottom": 31,
+  "bbox_right": 95,
+  "bbox_top": 6,
+  "bbox_bottom": 53,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
-  "height": 32,
+  "width": 96,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ec9fa67d-7cac-4153-ab6d-3f67635d4d82","path":"sprites/s_bear/s_bear.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ec9fa67d-7cac-4153-ab6d-3f67635d4d82","path":"sprites/s_bear/s_bear.yy",},"LayerId":{"name":"c2229ea4-a8d8-4a61-af03-7ebaab5f16c3","path":"sprites/s_bear/s_bear.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_bear","path":"sprites/s_bear/s_bear.yy",},"resourceVersion":"1.0","name":"ec9fa67d-7cac-4153-ab6d-3f67635d4d82","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2ce421be-8eb5-4d8a-bbc7-513ee78c2d50","path":"sprites/s_blood1/s_blood1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2ce421be-8eb5-4d8a-bbc7-513ee78c2d50","path":"sprites/s_blood1/s_blood1.yy",},"LayerId":{"name":"b823c69a-2217-4ab2-a1e7-1b650db74030","path":"sprites/s_blood1/s_blood1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_blood1","path":"sprites/s_blood1/s_blood1.yy",},"resourceVersion":"1.0","name":"2ce421be-8eb5-4d8a-bbc7-513ee78c2d50","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_bear","path":"sprites/s_bear/s_bear.yy",},
+    "spriteId": {"name":"s_blood1","path":"sprites/s_blood1/s_blood1.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"9d44c77a-febd-4dda-bf4f-1d64bc6d0430","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ec9fa67d-7cac-4153-ab6d-3f67635d4d82","path":"sprites/s_bear/s_bear.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"51ae518d-b16b-4a35-b20b-9852e8524174","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2ce421be-8eb5-4d8a-bbc7-513ee78c2d50","path":"sprites/s_blood1/s_blood1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_bear","path":"sprites/s_bear/s_bear.yy",},
+    "parent": {"name":"s_blood1","path":"sprites/s_blood1/s_blood1.yy",},
     "resourceVersion": "1.3",
-    "name": "s_bear",
+    "name": "s_blood1",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c2229ea4-a8d8-4a61-af03-7ebaab5f16c3","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b823c69a-2217-4ab2-a1e7-1b650db74030","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/SamProject/Sprites/interactable.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_bear",
+  "name": "s_blood1",
   "tags": [],
   "resourceType": "GMSprite",
 }
