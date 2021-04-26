@@ -53,6 +53,9 @@ switch(array_length_1d(current_text)){
 
 		if textcount>=string_length(text){
 		    sprite_index=sbox2
+			index+=0.125;
+			index%=4;
+			image_index=index;
 		}
 		else if textcount/4=round(textcount/4)
 			audio_play_sound(typewriter,0,false)

@@ -13,5 +13,5 @@ boxWidth=sprite_get_width(sbox1)
 stringHeight=string_height(string_hash_to_newline(text))
 
 state=0
-
-image_speed=1
+index=0.0;
+image_speed=0.125;
