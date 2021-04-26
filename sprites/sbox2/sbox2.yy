@@ -41,7 +41,7 @@
     "spriteId": {"name":"sbox2","path":"sprites/sbox2/sbox2.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 1.0,
+    "playbackSpeed": 0.125,
     "playbackSpeedType": 1,
     "autoRecord": true,
     "volume": 1.0,

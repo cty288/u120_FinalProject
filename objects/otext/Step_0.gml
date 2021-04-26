@@ -1,5 +1,6 @@
 depth=-1000
 
+
 if instance_exists(oplayer) and oshader.image_alpha=0 and oplayer.y-camera_get_view_y(view_camera[0])>304{
 	x=camera_get_view_x(view_camera[0])
 	y=camera_get_view_y(view_camera[0])
