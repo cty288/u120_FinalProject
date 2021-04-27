@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "CutScene",
-    "path": "folders/SamProject/Objects/CutScene.yy",
+    "name": "CutScene For this project",
+    "path": "folders/SamProject/Objects/CutScene For this project.yy",
   },
   "resourceVersion": "1.0",
   "name": "add_bear",

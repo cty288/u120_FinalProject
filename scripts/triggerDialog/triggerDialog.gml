@@ -20,7 +20,7 @@ function triggerDialog() {
 	                else if !instance_exists(mytextbox){
 	                    mytextbox=noone
 	                }
-				
+					
 	            }
 	        }
 	    }
