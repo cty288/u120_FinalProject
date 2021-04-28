@@ -14,7 +14,7 @@
   "duration": 0.0,
   "parent": {
     "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "path": "folders/SamProject/Sounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "moge_havefun",

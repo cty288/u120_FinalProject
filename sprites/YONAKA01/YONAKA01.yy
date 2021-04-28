@@ -82,7 +82,7 @@
   "nineSlice": null,
   "parent": {
     "name": "player02",
-    "path": "folders/Sprites/Character/player02.yy",
+    "path": "folders/SamProject/Sprites/Character/player02.yy",
   },
   "resourceVersion": "1.0",
   "name": "YONAKA01",

@@ -82,7 +82,7 @@
   "nineSlice": null,
   "parent": {
     "name": "UI",
-    "path": "folders/Sprites/UI.yy",
+    "path": "folders/SamProject/Sprites/UI.yy",
   },
   "resourceVersion": "1.0",
   "name": "sbox2",

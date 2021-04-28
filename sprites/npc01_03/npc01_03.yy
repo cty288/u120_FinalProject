@@ -79,10 +79,9 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"29e010a9-11ed-47a1-bf86-866dea177494","tags":[],"resourceType":"GMImageLayer",},
   ],
-  "nineSlice": null,
   "parent": {
     "name": "npc01",
-    "path": "folders/Sprites/Character/npc01.yy",
+    "path": "folders/SamProject/Sprites/Character/npc01.yy",
   },
   "resourceVersion": "1.0",
   "name": "npc01_03",

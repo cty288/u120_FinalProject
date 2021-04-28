@@ -10,10 +10,11 @@ text_info=[
 t_scene_info=[
 
 	[pauseCut],
-	[fogDistanceCut,0],
+	[shaderCut,black,1,2],
 	[waitCut,1*room_speed],
-	[fogDistanceCut,200],
+	[shaderCut,black,0,2],
 	[waitCut,0.5*room_speed],
+
 	[talkCut],
 	[freeCut]
 	

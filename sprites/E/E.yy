@@ -67,10 +67,9 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"70e83231-8bd8-46cc-9659-db5e0427345f","tags":[],"resourceType":"GMImageLayer",},
   ],
-  "nineSlice": null,
   "parent": {
     "name": "Tiles",
-    "path": "folders/Sprites/Tiles.yy",
+    "path": "folders/SamProject/Sprites/Tiles.yy",
   },
   "resourceVersion": "1.0",
   "name": "E",

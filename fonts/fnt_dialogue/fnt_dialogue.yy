@@ -127,7 +127,7 @@
   "maintainGms1Font": false,
   "parent": {
     "name": "FC_DialogueSystem",
-    "path": "folders/Fonts/FC_DialogueSystem.yy",
+    "path": "folders/SamProject/Fonts/FC_DialogueSystem.yy",
   },
   "resourceVersion": "1.0",
   "name": "fnt_dialogue",

@@ -10,5 +10,8 @@ if(!global.basement_door_opened){
 	}
 }else{
 	text_info=[
+	["You",g01,"I opened it!"]
 	]
+	addChoice(0,"Go out","Stay in the room",
+	basement_go_out,choice_exit);
 }

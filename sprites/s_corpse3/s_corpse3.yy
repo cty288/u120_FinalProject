@@ -67,10 +67,9 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"db3074bc-7da9-44ed-8206-f8104e245326","tags":[],"resourceType":"GMImageLayer",},
   ],
-  "nineSlice": null,
   "parent": {
     "name": "interactable",
-    "path": "folders/Sprites/interactable.yy",
+    "path": "folders/SamProject/Sprites/interactable.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_corpse3",

@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "System",
-    "path": "folders/Objects/System.yy",
+    "path": "folders/SamProject/Objects/System.yy",
   },
   "resourceVersion": "1.0",
   "name": "otext",

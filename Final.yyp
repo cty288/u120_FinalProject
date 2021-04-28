@@ -364,6 +364,7 @@
     {"id":{"name":"bac_refraction_normal","path":"sprites/bac_refraction_normal/bac_refraction_normal.yy",},"order":1,},
     {"id":{"name":"n0201","path":"sprites/n0201/n0201.yy",},"order":3,},
     {"id":{"name":"Right1","path":"sprites/Right1/Right1.yy",},"order":3,},
+    {"id":{"name":"basement_go_out","path":"objects/basement_go_out/basement_go_out.yy",},"order":14,},
     {"id":{"name":"spr_red_arrow","path":"sprites/spr_red_arrow/spr_red_arrow.yy",},"order":8,},
     {"id":{"name":"choice_exit","path":"objects/choice_exit/choice_exit.yy",},"order":3,},
     {"id":{"name":"spr_decoration4","path":"sprites/spr_decoration4/spr_decoration4.yy",},"order":6,},

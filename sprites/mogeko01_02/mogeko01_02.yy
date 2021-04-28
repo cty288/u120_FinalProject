@@ -79,10 +79,9 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bff0934f-e2f0-44a2-a95e-12b4df430f5c","tags":[],"resourceType":"GMImageLayer",},
   ],
-  "nineSlice": null,
   "parent": {
     "name": "mogeko01",
-    "path": "folders/Sprites/Character/mogeko01.yy",
+    "path": "folders/SamProject/Sprites/Character/mogeko01.yy",
   },
   "resourceVersion": "1.0",
   "name": "mogeko01_02",

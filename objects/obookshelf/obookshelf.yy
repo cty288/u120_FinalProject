@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "oSolid",
-    "path": "objects/oSolid/oSolid.yy",
+    "name": "fog",
+    "path": "objects/fog/fog.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "objects",
-    "path": "folders/Objects/objects.yy",
+    "path": "folders/SamProject/Objects/objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "obookshelf",

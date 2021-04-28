@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "objects",
-    "path": "folders/Objects/objects.yy",
+    "path": "folders/SamProject/Objects/objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "oposter_pathforest02",
