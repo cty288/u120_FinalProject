@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e10b7bf7-6b2c-4721-b77e-5f9eb0cb03d5","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "mogeko",
-    "path": "folders/SamProject/Sprites/Face/mogeko.yy",
+    "path": "folders/Sprites/Face/mogeko.yy",
   },
   "resourceVersion": "1.0",
   "name": "m06",

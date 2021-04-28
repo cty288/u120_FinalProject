@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Character",
-    "path": "folders/SamProject/Objects/Character.yy",
+    "path": "folders/Objects/Character.yy",
   },
   "resourceVersion": "1.0",
   "name": "NPC01",

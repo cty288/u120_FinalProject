@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b0a9b9e4-6051-4b8f-816b-b44ca22344a4","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "background",
-    "path": "folders/SamProject/Sprites/background.yy",
+    "path": "folders/Sprites/background.yy",
   },
   "resourceVersion": "1.0",
   "name": "train02",

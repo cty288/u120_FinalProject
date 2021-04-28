@@ -115,9 +115,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2b05146f-76d0-4479-a19f-29c0645538f5","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "player02",
-    "path": "folders/SamProject/Sprites/Character/player02.yy",
+    "path": "folders/Sprites/Character/player02.yy",
   },
   "resourceVersion": "1.0",
   "name": "YONAKA06",
