@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "CutScene",
-    "path": "folders/SamProject/Objects/CutScene.yy",
+    "name": "CutScene examples",
+    "path": "folders/SamProject/Objects/CutScene examples.yy",
   },
   "resourceVersion": "1.0",
   "name": "choice_exit",

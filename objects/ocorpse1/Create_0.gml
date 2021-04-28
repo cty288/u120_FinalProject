@@ -3,5 +3,6 @@
 event_inherited();
 
 text_info=[
-	["Seems dead already."]
+	["You",g01,"A halloween decoration, maybe?"],
+	["You",g01,"OH NO! It's a dead body! :0"]
 	]

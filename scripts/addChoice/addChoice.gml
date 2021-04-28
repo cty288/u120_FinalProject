@@ -33,9 +33,10 @@ function addChoice() {
 	            }
 	            oplayer.mystate=1
 	            break;
-			case 7: break;
+			case 7: 
 		            if !instance_exists(ochoice)
 		            instance_create(240,240,ochoice);
+					show_debug_message("Dss");
 		            with ochoice{
 		                menu_max=3
 		                option[0]=arg[1]

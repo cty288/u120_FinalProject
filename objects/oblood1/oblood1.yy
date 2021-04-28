@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "ointeract",
-    "path": "objects/ointeract/ointeract.yy",
+    "name": "fog",
+    "path": "objects/fog/fog.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

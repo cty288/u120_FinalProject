@@ -18,6 +18,10 @@ msg_show=false;
 name_alpha=0;
 //item sprite <=80*80
 
+function has_object(obj){
+	var key=object_get_name(obj.object_index);
+	return ds_map_exists(inventory,key);
+}
 
 function add_to_inventory(obj,number,obj_name_this){
 	var key=object_get_name(obj.object_index);
