@@ -9,6 +9,6 @@ for (var i=0; i<=menu_max-1; i++){
         draw_set_colour(c_gray)
         if i==menu_index
             draw_set_colour(c_black)
-        draw_text(xx/2,+240+(i*20),string_hash_to_newline(option[i]))
+        draw_text(xx/2+27,+240+(i*20),string_hash_to_newline(option[i]))
 }
 

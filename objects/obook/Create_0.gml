@@ -3,7 +3,7 @@
 
 // Inherit the parent event
 event_inherited();
-
+opened=false;
 text_info=[
 	["You",g01,"A children's book dropped off from the bookshelf"],
 	]

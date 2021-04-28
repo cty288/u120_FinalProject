@@ -1,5 +1,6 @@
 //image_xscale=1+(menu_max-2)*0.3
 image_yscale=1+(menu_max-2)*0.4
+image_xscale=1.1;
 
 if keyboard_check_pressed(vk_down){
     if menu_index<array_length_1d(option)-1
