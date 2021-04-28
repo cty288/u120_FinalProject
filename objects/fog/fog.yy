@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_fog",
-    "path": "sprites/spr_fog/spr_fog.yy",
+    "name": "ssolid",
+    "path": "sprites/ssolid/ssolid.yy",
   },
   "solid": false,
   "visible": true,

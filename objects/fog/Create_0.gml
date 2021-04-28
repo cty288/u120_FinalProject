@@ -2,6 +2,7 @@
 global.fObject = YONAKA;  // where light starts (OBJECT) (for example - obj_player)
 global.fDistance = 200; // light distance (REAL) (in power of your cellsize)
 global.fColor = c_black;  // fog color (STRING or COLOR CODE) (fog color - c_black)
+depth=-750
 
 /***************************************************
   FOG 2D (by MCampbell) v 1.2.1 (FIX) (17.09.16)
