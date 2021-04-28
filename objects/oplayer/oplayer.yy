@@ -4,7 +4,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": true,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "fog",
+    "path": "objects/fog/fog.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 0,

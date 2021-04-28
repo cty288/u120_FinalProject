@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "oSolid",
-    "path": "objects/oSolid/oSolid.yy",
+    "name": "fog",
+    "path": "objects/fog/fog.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

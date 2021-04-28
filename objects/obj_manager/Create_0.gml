@@ -2,7 +2,7 @@ enum game_state{
 	start,
 	in_game,
 }
-
+global.finger_added=false;
 global.state=game_state.in_game;
 
 global.die=false;

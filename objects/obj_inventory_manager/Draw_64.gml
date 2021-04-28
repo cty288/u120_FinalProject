@@ -12,7 +12,7 @@ if(!instance_exists(otext)&&!instance_exists(omessage)){
 			var obj_sprite=obj.sprite_index;
 			var number=inventory[?inventory_keys[|i]];
 		
-			draw_sprite_stretched(obj_sprite,0,35+5+85*i,camera_height-100,70,70);
+			draw_sprite_stretched(obj_sprite,0,35+4+85*i*0.8,camera_height-100,70,70);
 		
 			draw_set_halign(fa_right);
 			draw_set_valign(fa_bottom);

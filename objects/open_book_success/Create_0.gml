@@ -1,5 +1,5 @@
 event_inherited()
-mytextbox=noone;
+
 obook.opened=true;
 
 text_info=[
