@@ -14,7 +14,7 @@
   "duration": 0.0,
   "parent": {
     "name": "Sounds",
-    "path": "folders/SamProject/Sounds.yy",
+    "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "message",

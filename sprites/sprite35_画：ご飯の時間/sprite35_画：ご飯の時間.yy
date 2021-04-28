@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cf19b737-2869-481f-8b6e-c51039559c04","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "shader",
-    "path": "folders/SamProject/Sprites/shader.yy",
+    "path": "folders/Sprites/shader.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprite35_画：ご飯の時間",

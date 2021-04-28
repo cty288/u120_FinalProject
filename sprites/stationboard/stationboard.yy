@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ea6e22df-ea26-4380-9b12-c6942de83e9c","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "shader",
-    "path": "folders/SamProject/Sprites/shader.yy",
+    "path": "folders/Sprites/shader.yy",
   },
   "resourceVersion": "1.0",
   "name": "stationboard",

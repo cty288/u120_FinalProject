@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"62b7e5e4-5e17-449e-8b69-71d1a5e8440b","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "YONAKA",
-    "path": "folders/SamProject/Sprites/Face/YONAKA.yy",
+    "path": "folders/Sprites/Face/YONAKA.yy",
   },
   "resourceVersion": "1.0",
   "name": "y017",

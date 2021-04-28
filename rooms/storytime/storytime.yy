@@ -43,7 +43,7 @@
   },
   "parent": {
     "name": "Rooms",
-    "path": "folders/SamProject/Rooms.yy",
+    "path": "folders/Rooms.yy",
   },
   "resourceVersion": "1.0",
   "name": "storytime",

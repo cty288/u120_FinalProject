@@ -74,7 +74,7 @@
   "nineSlice": null,
   "parent": {
     "name": "ghost",
-    "path": "folders/SamProject/Sprites/Character/ghost.yy",
+    "path": "folders/Sprites/Character/ghost.yy",
   },
   "resourceVersion": "1.0",
   "name": "Right2",

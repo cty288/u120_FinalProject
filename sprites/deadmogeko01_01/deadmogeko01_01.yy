@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "deadmogeko01",
-    "path": "folders/SamProject/Sprites/Character/deadmogeko01.yy",
+    "path": "folders/Sprites/Character/deadmogeko01.yy",
   },
   "resourceVersion": "1.0",
   "name": "deadmogeko01_01",

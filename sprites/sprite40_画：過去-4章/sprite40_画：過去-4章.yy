@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9ec8257d-c0d2-450d-85d3-5d83ccdc8137","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "shader",
-    "path": "folders/SamProject/Sprites/shader.yy",
+    "path": "folders/Sprites/shader.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprite40_画：過去-4章",
