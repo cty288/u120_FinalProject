@@ -1,5 +1,5 @@
 event_inherited()
-visited=false;
+touched=false;
 text_info=[
 
 	["You",g01,"Where am I..."],
@@ -12,10 +12,8 @@ text_info=[
 t_scene_info=[
 
 	[pauseCut],
-	[waitCut,30],
-	[talkCut],
-	[messageCut,"Move with W/S/A/D to explore the basement"],
-	[destroyCut,station_think],
+	//[messageCut,"Go back to basement?"],
+	[choiceCut,"GO back to the basement?","yes","no",go_to_basement,choice_exit],
 	[freeCut],
 
 ]

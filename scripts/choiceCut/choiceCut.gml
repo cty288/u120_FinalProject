@@ -25,7 +25,7 @@ function choiceCut() {
 	            if !instance_exists(ochoice)
 	            instance_create(240,240,ochoice);
 	            with ochoice{
-	                menu_max=1
+	                menu_max=2
 	                option[0]=arg[1]
 	                option[1]=arg[2]
 	                choice[0]=arg[3]
@@ -37,10 +37,10 @@ function choiceCut() {
 	    }
     
 	}
-	if !instance_exists(myTextbox){
+	/*if !instance_exists(myTextbox){
 	    mytextbox=noone
 	    endCut()
-	}
+	}*/
 
 
 }

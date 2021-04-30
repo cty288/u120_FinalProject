@@ -6,7 +6,7 @@
   "solid": true,
   "visible": false,
   "spriteMaskId": null,
-  "persistent": true,
+  "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,

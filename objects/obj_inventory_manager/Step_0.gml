@@ -22,15 +22,5 @@ if(!instance_exists(otext)){
 		msg_show=true;
 		name_alpha=0;
 	}
-	/*
-	if(keyboard_check_pressed(ord("Q"))){
-		if(select_index<size){
-			var obj = asset_get_index(inventory_keys[|select_index]);
-			instance_create_layer(player.x-50,player.y,"Instances_1",obj);
-			remove_from_inventory(obj,1);
-		}
 
-		
-	}*/
-	
 }
