@@ -2,8 +2,10 @@
 image_yscale=1+(menu_max-2)*0.4
 image_xscale=1.1;
 
+x=240+camera_get_view_x(view_camera[0]);
+y=240;
 if keyboard_check_pressed(vk_down){
-    if menu_index<array_length_1d(option)-1
+    if menu_index<menu_max-1
         menu_index++
     else
         menu_index=0
@@ -12,7 +14,7 @@ if keyboard_check_pressed(vk_up){
     if menu_index>0
         menu_index--
     else
-        menu_index=array_length_1d(option)-1
+        menu_index=menu_max-1
 }
 
 if keyboard_check_pressed(vk_space) or keyboard_check_pressed(vk_enter){
@@ -33,7 +35,7 @@ if keyboard_check_pressed(vk_space) or keyboard_check_pressed(vk_enter){
 			 instance_create(x,y,choice[3])
 			break;
     }
-    
+    instance_destroy(otext);
     
     instance_destroy()
 	if instance_exists(ocutscene){

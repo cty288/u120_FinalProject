@@ -23,7 +23,7 @@ function choiceCut() {
 	        case 4 : break;
 	        case 5 : 
 	            if !instance_exists(ochoice)
-	            instance_create(240,240,ochoice);
+	            instance_create(camera_get_view_x(view_camera[0])+ 240,240,ochoice);
 	            with ochoice{
 	                menu_max=2
 	                option[0]=arg[1]

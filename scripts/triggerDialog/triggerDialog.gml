@@ -1,10 +1,13 @@
 function triggerDialog() {
 	//start the dialogue, create textbox and avatar once the player is within certain range and complete required action.
-
+//change this and ochoice
 	if point_distance(x,y,oplayer.x,oplayer.y)<=32{
 	        if (point_direction(x,y,oplayer.x,oplayer.y)=0 and oplayer.sprite_index=oplayer.mysprite[3]) or (point_direction(x,y,oplayer.x,oplayer.y)=90 and oplayer.sprite_index=oplayer.mysprite[1]) or (point_direction(x,y,oplayer.x,oplayer.y)=180 and oplayer.sprite_index=oplayer.mysprite[4]) or (point_direction(x,y,oplayer.x,oplayer.y)=270 and oplayer.sprite_index=oplayer.mysprite[2]){
-	            if keyboard_check_pressed(vk_space) or keyboard_check_pressed(vk_enter){
-            
+	            if ((keyboard_check_pressed(vk_space) or keyboard_check_pressed(vk_enter))){
+					
+					//alarm[0]=1*room_speed;
+					interacting=true;
+					alarm[0]=0.3*room_speed;
 	                if mytextbox=noone{
 	                if !instance_exists(otext){
 	                    if instance_exists(oplayer) and oshader.image_alpha=0 and oplayer.y-camera_get_view_y(view_camera[0])>304{
@@ -26,6 +29,7 @@ function triggerDialog() {
 	    }
     
 	    else{
+			interacting=false;
 	        if mytextbox!=noone{
 	            with mytextbox{
 	                instance_destroy()

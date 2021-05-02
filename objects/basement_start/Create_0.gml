@@ -14,7 +14,8 @@ t_scene_info=[
 	[pauseCut],
 	[waitCut,30],
 	[talkCut],
-	[messageCut,"Move with W/S/A/D to explore the basement"],
+	[messageCut,"Move with W/S/A/D to explore the basement, press shift to accelerate"],
+	[messageCut,"Press space to interact with objects"],
 	[destroyCut,basement_start],
 	[freeCut],
 

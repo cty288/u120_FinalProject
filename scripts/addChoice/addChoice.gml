@@ -9,12 +9,12 @@ function addChoice() {
 	    i++
 	}
 
-	if instance_exists(otext) and mytextbox!=noone{
-
+	if (instance_exists(otext) and mytextbox!=noone and interacting){
+		
 	    if otext.page=arg[0]{
     
 	    if otext.textcount>=string_length(otext.text){
-    
+
 	    switch(argument_count){
 	        case 0 : break;
 	        case 1 : break;
@@ -23,8 +23,8 @@ function addChoice() {
 	        case 4 : break;
 	        case 5 : 
 	            if !instance_exists(ochoice)
-	            instance_create(240,240,ochoice);
-	            with ochoice{
+	            c= instance_create(camera_get_view_x(view_camera[0])+240,240,ochoice); //change this
+	            with c{
 	                menu_max=2
 	                option[0]=arg[1]
 	                option[1]=arg[2]
@@ -35,9 +35,9 @@ function addChoice() {
 	            break;
 			case 7: 
 		            if !instance_exists(ochoice)
-		            instance_create(240,240,ochoice);
+		           c= instance_create(camera_get_view_x(view_camera[0])+240,240,ochoice);
 					show_debug_message("Dss");
-		            with ochoice{
+		            with c{
 		                menu_max=3
 		                option[0]=arg[1]
 		                option[1]=arg[2]
@@ -51,8 +51,8 @@ function addChoice() {
 	            break;
 			case 9: 
 					if !instance_exists(ochoice)
-		            instance_create(240,240,ochoice);
-		            with ochoice{
+		           c= instance_create(camera_get_view_x(view_camera[0])+240,240,ochoice);
+		            with c{
 		                menu_max=4
 		                option[0]=arg[1]
 		                option[1]=arg[2]

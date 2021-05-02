@@ -2,10 +2,10 @@ function shaderCut(argument0, argument1, argument2) {
 	//control shader's image alpha, make it fade in or out
 	if instance_exists(oshader){
 	
-		if oshader.sprite_index!=argument0
-			oshader.sprite_index=argument0
+		if oshader.sprite!=argument0
+			oshader.sprite=argument0
 
-		if oshader.image_alpha!=argument1{
+		if oshader.alpha!=argument1{
 
 		if argument1=1
 		        oshader.timer+=30/argument2

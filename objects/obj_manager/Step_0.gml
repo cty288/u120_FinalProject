@@ -7,3 +7,4 @@ if(global.die){
 	room_persistent=true;
 
 }
+

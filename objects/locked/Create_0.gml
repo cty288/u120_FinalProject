@@ -11,6 +11,7 @@ t_scene_info=[
 
 	[pauseCut],
 	[talkCut],
+	[destroyCut,instance_find(otext,0)],
 	[freeCut]
 	
 ];

@@ -1,6 +1,6 @@
 mytextbox=noone
 mysprite[1]=noone
-
+interacting=false;
 if sprite_index=sinteract
     image_alpha=0
 	

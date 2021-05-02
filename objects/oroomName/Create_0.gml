@@ -9,3 +9,4 @@ name_alpha=0;
 alarm[0]=1.5*room_speed;
 
 na="";
+depth=-800
