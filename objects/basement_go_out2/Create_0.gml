@@ -13,7 +13,7 @@ t_scene_info=[
 	[roomNameCut,"Statue room"],
 	[waitCut,1*room_speed],
 	[roomCut,statue_room],
-	[placeCut,oplayer,128,352],
+	[placeCut,oplayer,32,416],
 	[shaderCut,black,0,15],
 	[freeCut]
 	

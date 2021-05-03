@@ -1,6 +1,6 @@
 event_inherited()
 
-global.finger_added=true;
+
 
 text_info=[
 	["You",g01,"So nice to have someone who is actually alive here. Kitten do you want to join me?"],

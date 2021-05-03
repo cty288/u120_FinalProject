@@ -8,7 +8,7 @@ function choiceCut() {
 	    i++
 	}
 
-	if !instance_exists(otext) and mytextbox=noone{
+	if (!instance_exists(otext) and mytextbox=noone ){
 
 	    mytextbox=instance_create(camera_get_view_x(view_camera[0]),camera_get_view_y(view_camera[0])+480-144,otext)
 		otext.text_info=[

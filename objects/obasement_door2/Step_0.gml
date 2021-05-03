@@ -9,6 +9,10 @@ if(!global.complete_photo_flipped){
 	text_info=[
 	["You",g01,"This door is open! The unlocking sound that I heard must come from this door!"]
 	]
+	if(instance_exists(otext)){
+			show_debug_message(otext.page);
+	}
+
 	addChoice(0,"Go out","Stay in the room",
 	basement_go_out2,choice_exit);
 }

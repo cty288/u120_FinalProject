@@ -8,3 +8,4 @@ if(global.die){
 
 }
 
+global.complete_photo_flipped=true;

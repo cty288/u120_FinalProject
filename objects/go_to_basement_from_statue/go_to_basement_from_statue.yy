@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "strigger",
-    "path": "sprites/strigger/strigger.yy",
+    "name": "strigger_5",
+    "path": "sprites/strigger_5/strigger_5.yy",
   },
   "solid": false,
   "visible": true,
