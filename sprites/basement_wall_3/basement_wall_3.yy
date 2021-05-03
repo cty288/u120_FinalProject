@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Basement",
-    "path": "folders/Sprites/Basement.yy",
+    "name": "interactable",
+    "path": "folders/SamProject/Sprites/interactable.yy",
   },
   "resourceVersion": "1.0",
   "name": "basement_wall_3",

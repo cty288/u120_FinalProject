@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "UI",
+    "path": "folders/SamProject/Sprites/UI.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_inventory_selection_strip2",

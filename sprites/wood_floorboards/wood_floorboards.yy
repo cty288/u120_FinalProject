@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"88b25e56-63b1-4f50-a7fb-aa1879f5f49a","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "interactable",
+    "path": "folders/SamProject/Sprites/interactable.yy",
   },
   "resourceVersion": "1.0",
   "name": "wood_floorboards",

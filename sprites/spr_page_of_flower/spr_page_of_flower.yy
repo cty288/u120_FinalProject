@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"94b11999-3a5e-4b22-88e3-41fe8eea2320","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "interactable",
+    "path": "folders/SamProject/Sprites/interactable.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_page_of_flower",
