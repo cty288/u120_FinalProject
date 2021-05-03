@@ -11,7 +11,7 @@ global.mirror_success=false;
 global.splice_success=false;
 global.complete_photo_flipped=false;
 global.kitten_eat_fish=false;
-
+global.trash_can_search=false;
 room_list=[basement,hallway,bathroom,bedroom,exhibition_room];
 function restart(){
 	global.state=game_state.start;

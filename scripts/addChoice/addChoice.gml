@@ -9,7 +9,7 @@ function addChoice() {
 	    i++
 	}
 
-	if (instance_exists(otext) and mytextbox!=noone and interacting){
+	if (instance_exists(otext) and mytextbox!=noone and interacting and !instance_exists(ocutscene) ){
 		
 	    if otext.page=arg[0]{
     
