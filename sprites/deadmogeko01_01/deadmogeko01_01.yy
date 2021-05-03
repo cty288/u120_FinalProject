@@ -67,7 +67,6 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7af9ab95-37e0-4580-9cca-74ae31a9085f","tags":[],"resourceType":"GMImageLayer",},
   ],
-  "nineSlice": null,
   "parent": {
     "name": "deadmogeko01",
     "path": "folders/SamProject/Sprites/Character/deadmogeko01.yy",

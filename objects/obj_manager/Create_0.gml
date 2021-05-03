@@ -9,10 +9,13 @@ global.die=false;
 global.severed_finger_cut=false;
 global.mirror_success=false;
 global.splice_success=false;
-global.complete_photo_flipped=false;
+global.complete_photo_flipped=true;
 global.kitten_eat_fish=false;
 global.trash_can_search=false;
-room_list=[basement,hallway,bathroom,bedroom,exhibition_room];
+global.kitten_died=false;
+
+room_list=[basement,hallway,bathroom,bedroom,exhibition_room,statue_room,workshop];
+
 function restart(){
 	global.state=game_state.start;
 
