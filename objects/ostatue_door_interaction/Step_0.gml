@@ -1,5 +1,5 @@
 event_inherited()
-
+global.kitten_died=true;
 if(!global.kitten_died){
 	
 	addChoice(0,"Use the key","Leave it alone",

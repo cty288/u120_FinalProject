@@ -13,6 +13,7 @@ global.complete_photo_flipped=true;
 global.kitten_eat_fish=false;
 global.trash_can_search=false;
 global.kitten_died=false;
+global.diary_read=false;
 
 room_list=[basement,hallway,bathroom,bedroom,exhibition_room,statue_room,workshop];
 
