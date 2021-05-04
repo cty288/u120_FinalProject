@@ -7,7 +7,7 @@
   "packageId": "com.xygthop3.shaderexamples",
   "productId": "F3D00DAD3DDB83EFFDD568E8093FC7AA",
   "author": "",
-  "date": "2021-04-26T15:46:24.3435676+08:00",
+  "date": "2021-04-26T03:46:24.3435676-04:00",
   "license": "Free to use, also for commercial games.",
   "description": "",
   "helpfile": "",

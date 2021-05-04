@@ -7,7 +7,7 @@
   "packageId": "com.mcampbell.fog2d",
   "productId": "1D97744C262E486C06FF65925E7AAD9A",
   "author": "",
-  "date": "2021-04-26T16:52:59.8577944+08:00",
+  "date": "2021-04-26T04:52:59.8577944-04:00",
   "license": "Free to use, also for commercial games.",
   "description": "",
   "helpfile": "",
