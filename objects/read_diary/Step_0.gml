@@ -8,3 +8,7 @@ if !instance_exists(ocutscene){
 	createScene()
 	instance_destroy()
 }
+
+if(global.die){
+	persistent=false;
+}

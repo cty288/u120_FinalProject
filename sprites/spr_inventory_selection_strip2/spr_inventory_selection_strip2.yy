@@ -71,7 +71,6 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"667ae1eb-91fe-4fa2-83a4-ce3ec020243d","tags":[],"resourceType":"GMImageLayer",},
   ],
-  "nineSlice": null,
   "parent": {
     "name": "UI",
     "path": "folders/SamProject/Sprites/UI.yy",

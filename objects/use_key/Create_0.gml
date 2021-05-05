@@ -10,6 +10,7 @@ text_info=[
 t_scene_info=[
 
 	[pauseCut],
+	[soundCut,door_locked_sound,false,0],
 	[talkCut],
 	[freeCut]
 	

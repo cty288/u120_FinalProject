@@ -79,7 +79,6 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9e04a153-3616-4d83-b4c4-5f1c2f064b91","tags":[],"resourceType":"GMImageLayer",},
   ],
-  "nineSlice": null,
   "parent": {
     "name": "player02",
     "path": "folders/SamProject/Sprites/Character/player02.yy",

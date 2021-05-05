@@ -127,7 +127,6 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0d3c56b0-dd7e-4031-a235-a9e19304c549","tags":[],"resourceType":"GMImageLayer",},
   ],
-  "nineSlice": null,
   "parent": {
     "name": "mogeko",
     "path": "folders/SamProject/Sprites/Face/mogeko.yy",

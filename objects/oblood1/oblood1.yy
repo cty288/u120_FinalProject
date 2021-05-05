@@ -3,7 +3,7 @@
     "name": "s_blood1",
     "path": "sprites/s_blood1/s_blood1.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

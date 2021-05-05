@@ -71,7 +71,6 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1379dc1c-6df8-4803-8b65-77465e59cf70","tags":[],"resourceType":"GMImageLayer",},
   ],
-  "nineSlice": null,
   "parent": {
     "name": "ghost",
     "path": "folders/SamProject/Sprites/Character/ghost.yy",

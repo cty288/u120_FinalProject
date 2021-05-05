@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.25,
+  "volume": 0.1,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,11 +10,11 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "typewriter",
-  "duration": 0.0,
+  "soundFile": "typewriter.wav",
+  "duration": 0.033118,
   "parent": {
     "name": "Sounds",
-    "path": "folders/SamProject/Sounds.yy",
+    "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "typewriter",

@@ -67,7 +67,6 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"006b6f6d-d6c9-4191-8d3f-bc57eaf0d919","tags":[],"resourceType":"GMImageLayer",},
   ],
-  "nineSlice": null,
   "parent": {
     "name": "interactable",
     "path": "folders/SamProject/Sprites/interactable.yy",

@@ -67,7 +67,6 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2db11ee0-eb1d-46a4-9df2-aea9275e4f84","tags":[],"resourceType":"GMImageLayer",},
   ],
-  "nineSlice": null,
   "parent": {
     "name": "Parent",
     "path": "folders/SamProject/Sprites/Parent.yy",

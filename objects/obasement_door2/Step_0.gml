@@ -6,6 +6,7 @@ if(!global.complete_photo_flipped){
 		use_key2,choice_exit);
 	}
 }else{
+	interact_sound=noone;
 	text_info=[
 	["You",g01,"This door is open! The unlocking sound that I heard must come from this door!"]
 	]

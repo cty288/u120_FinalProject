@@ -10,6 +10,7 @@ text_info=[
 t_scene_info=[
 
 	[pauseCut],
+	[soundCut,door_open,false,0],
 	[messageCut,"You opened the door with the bloody key"],
 	[talkCut],
 	[freeCut]

@@ -22,7 +22,7 @@ if ms==1{
         image_index=2
     }
     if msu=0
-        image_speed=8/30
+        image_speed=8 /30
     else if msu=1
         image_speed=12/30
 }

@@ -10,6 +10,7 @@ text_info=[
 t_scene_info=[
 
 	[pauseCut],
+	[soundCut,light_off,false,1],
 	[shaderCut,black,1,2],
 	[waitCut,1*room_speed],
 	[shaderCut,black,0,2],

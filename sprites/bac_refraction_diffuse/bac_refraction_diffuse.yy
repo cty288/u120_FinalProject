@@ -67,7 +67,6 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"23892ad0-645f-4530-ab46-ff0318f67773","tags":[],"resourceType":"GMImageLayer",},
   ],
-  "nineSlice": null,
   "parent": {
     "name": "Group_refraction",
     "path": "folders/Sprites/tilesets/Group_refraction.yy",

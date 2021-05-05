@@ -10,6 +10,7 @@ text_info=[
 t_scene_info=[
 
 	[pauseCut],
+	[soundCut,paper,false,0],
 	[messageCut,"You fliped the photo, and saw its back"],
 	[shaderCut,s_photo_reversed_back,1,30],
 	[waitCut,room_speed],

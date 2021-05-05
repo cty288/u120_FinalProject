@@ -9,6 +9,7 @@ if(!global.basement_door_opened){
 		open_basement_door,choice_exit);
 	}
 }else{
+	interact_sound=noone;
 	text_info=[
 	["You",g01,"I opened it!"]
 	]

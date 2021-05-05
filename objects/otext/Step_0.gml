@@ -47,6 +47,11 @@ switch(array_length_1d(current_text)){
 		name=current_text[0]
 		sf=current_text[1]
 		text=current_text[2]
+		if(text=="*meow meow*"){
+			if(!audio_is_playing(kittie1)){
+				audio_play_sound(kittie1,1,false);
+			}
+		}
 		if !instance_exists(oavatar)
 			myavatar=instance_create(x,y,oavatar)
 			myavatar.sprite_index=sf
@@ -66,9 +71,11 @@ switch(array_length_1d(current_text)){
 		        sprite_index=sbox2
 		    }
 		    else if page+1<array_length_1d(text_info){
+				audio_stop_sound(kittie1);
 		        page+=1
 		        textcount=0
 				myavatar.sprite_index=sf
+				audio_play_sound(sound_talk,1,false);
 		    }
 		    else{
 		        instance_destroy()
