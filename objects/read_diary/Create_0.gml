@@ -42,7 +42,7 @@ t_scene_info=[
 	[talkCut2],
 	[soundCut,horror1,false,1],
 	[endingshakeCut],
-	[waitCut,2*room_speed],
+	[waitCut,1*room_speed],
 	[shaderCut,black,1,5],
 	[waitCut,room_speed],
 	[endingCut,"Game Ends"]
