@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"db142ca2-7859-474e-b8d2-f455c84270f3","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Tiles",
-    "path": "folders/SamProject/Sprites/Tiles.yy",
+    "path": "folders/Sprites/Tiles.yy",
   },
   "resourceVersion": "1.0",
   "name": "Outside_B",

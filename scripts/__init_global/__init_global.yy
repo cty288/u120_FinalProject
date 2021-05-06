@@ -3,7 +3,7 @@
   "isCompatibility": true,
   "parent": {
     "name": "compatibility",
-    "path": "folders/SamProject/Scripts/compatibility.yy",
+    "path": "folders/Samples/Scripts/compatibility.yy",
   },
   "resourceVersion": "1.0",
   "name": "__init_global",

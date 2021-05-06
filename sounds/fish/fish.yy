@@ -14,7 +14,7 @@
   "duration": 31.7063332,
   "parent": {
     "name": "Sounds",
-    "path": "folders/SamProject/Sounds.yy",
+    "path": "folders/Samples/Sounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "fish",

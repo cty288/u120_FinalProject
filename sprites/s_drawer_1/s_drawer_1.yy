@@ -71,9 +71,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"60e5fbdb-e441-4ca3-a145-a0be661ff876","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "interactable",
-    "path": "folders/SamProject/Sprites/interactable.yy",
+    "path": "folders/Sprites/interactable.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_drawer_1",

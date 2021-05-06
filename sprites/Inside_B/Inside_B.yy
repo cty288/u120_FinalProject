@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"96b14dc7-ec6f-48bd-9031-f237ebf30bf4","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Tiles",
-    "path": "folders/SamProject/Sprites/Tiles.yy",
+    "path": "folders/Sprites/Tiles.yy",
   },
   "resourceVersion": "1.0",
   "name": "Inside_B",

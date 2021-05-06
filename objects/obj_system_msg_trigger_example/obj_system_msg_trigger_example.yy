@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "spr_system_msg",
-    "path": "sprites/spr_system_msg/spr_system_msg.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_system_msg_trigger_parent",
-    "path": "objects/obj_system_msg_trigger_parent/obj_system_msg_trigger_parent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,7 +18,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_system_msg_trigger_example","path":"objects/obj_system_msg_trigger_example/obj_system_msg_trigger_example.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

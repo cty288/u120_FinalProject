@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1152707d-4d9e-41a5-a004-c6ab9343cbaf","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
-    "name": "Face",
-    "path": "folders/SamProject/Sprites/Face.yy",
+    "name": "Avatar",
+    "path": "folders/Sprites/Avatar.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_kitten_face",

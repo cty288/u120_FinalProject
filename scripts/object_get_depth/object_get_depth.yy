@@ -3,7 +3,7 @@
   "isCompatibility": true,
   "parent": {
     "name": "object",
-    "path": "folders/SamProject/Scripts/compatibility/object.yy",
+    "path": "folders/Samples/Scripts/compatibility/object.yy",
   },
   "resourceVersion": "1.0",
   "name": "object_get_depth",

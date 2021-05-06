@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sinteract_1",
-    "path": "sprites/sinteract_1/sinteract_1.yy",
-  },
+  "spriteId": null,
   "solid": true,
   "visible": false,
   "spriteMaskId": null,
@@ -24,14 +21,14 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"ostatue_door_interaction","path":"objects/ostatue_door_interaction/ostatue_door_interaction.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"ostatue_door_interaction","path":"objects/ostatue_door_interaction/ostatue_door_interaction.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "objects",
-    "path": "folders/SamProject/Objects/objects.yy",
+    "name": "Interactables",
+    "path": "folders/Objects/Interactables.yy",
   },
   "resourceVersion": "1.0",
   "name": "ostatue_door_interaction",

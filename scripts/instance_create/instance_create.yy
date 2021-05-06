@@ -3,7 +3,7 @@
   "isCompatibility": true,
   "parent": {
     "name": "instance",
-    "path": "folders/SamProject/Scripts/compatibility/instance.yy",
+    "path": "folders/Samples/Scripts/compatibility/instance.yy",
   },
   "resourceVersion": "1.0",
   "name": "instance_create",

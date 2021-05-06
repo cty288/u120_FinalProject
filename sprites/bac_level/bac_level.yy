@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"799b4eb3-2506-4171-a2a8-d0409a7d83f5","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
-    "name": "tilesets",
-    "path": "folders/Sprites/tilesets.yy",
+    "name": "Tile Sets",
+    "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
   "name": "bac_level",

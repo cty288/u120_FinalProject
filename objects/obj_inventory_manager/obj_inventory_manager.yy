@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_system_msg",
-    "path": "sprites/spr_system_msg/spr_system_msg.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,16 +18,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_inventory_manager","path":"objects/obj_inventory_manager/obj_inventory_manager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_inventory_manager","path":"objects/obj_inventory_manager/obj_inventory_manager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_inventory_manager","path":"objects/obj_inventory_manager/obj_inventory_manager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"obj_inventory_manager","path":"objects/obj_inventory_manager/obj_inventory_manager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Systemic  Objects (Managers)",
-    "path": "folders/Objects/Systemic  Objects (Managers).yy",
+    "name": "Managers",
+    "path": "folders/Objects/Managers.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_inventory_manager",

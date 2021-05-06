@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e54c35d7-42f8-4fa1-8665-97c66d58b51b","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "interactable",
-    "path": "folders/SamProject/Sprites/interactable.yy",
+    "path": "folders/Sprites/interactable.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_door",

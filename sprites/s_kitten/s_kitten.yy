@@ -71,9 +71,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"402f7c96-fc59-44fc-970d-956a8d9bd4b7","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "interactable",
-    "path": "folders/SamProject/Sprites/interactable.yy",
+    "path": "folders/Sprites/interactable.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_kitten",

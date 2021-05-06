@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b01967ea-669c-473f-b7eb-568c29e966d2","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
-    "name": "Face",
-    "path": "folders/SamProject/Sprites/Face.yy",
+    "name": "Avatar",
+    "path": "folders/Sprites/Avatar.yy",
   },
   "resourceVersion": "1.0",
   "name": "g01",

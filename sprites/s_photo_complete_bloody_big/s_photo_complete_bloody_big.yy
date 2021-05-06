@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fd0219b1-70bf-4440-8d3b-e6d1cc195d87","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "interactable",
-    "path": "folders/SamProject/Sprites/interactable.yy",
+    "path": "folders/Sprites/interactable.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_photo_complete_bloody_big",

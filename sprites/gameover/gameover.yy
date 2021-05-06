@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cfc14f01-3b06-4363-8374-63e7ac0f2dbc","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "UI",
-    "path": "folders/SamProject/Sprites/UI.yy",
+    "path": "folders/Samples/Sprites/UI.yy",
   },
   "resourceVersion": "1.0",
   "name": "gameover",

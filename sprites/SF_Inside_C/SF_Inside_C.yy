@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"21638afb-39d3-45c5-a818-9bd9fbf76149","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Tiles",
-    "path": "folders/SamProject/Sprites/Tiles.yy",
+    "path": "folders/Sprites/Tiles.yy",
   },
   "resourceVersion": "1.0",
   "name": "SF_Inside_C",

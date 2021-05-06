@@ -7,10 +7,7 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_collectable_object_parent",
-    "path": "objects/obj_collectable_object_parent/obj_collectable_object_parent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -26,7 +23,7 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"object_name_this","path":"objects/obj_collectable_object_parent/obj_collectable_object_parent.yy",},"objectId":{"name":"obj_collectable_object_parent","path":"objects/obj_collectable_object_parent/obj_collectable_object_parent.yy",},"value":"test2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"object_name_this","path":"objects/obj_collectable_object_parent/obj_collectable_object_parent.yy",},"objectId":null,"value":"test2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Test Objects",

@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sinteract_2",
-    "path": "sprites/sinteract_2/sinteract_2.yy",
-  },
+  "spriteId": null,
   "solid": true,
   "visible": false,
   "spriteMaskId": null,
@@ -24,14 +21,14 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"ostatue_2_interact","path":"objects/ostatue_2_interact/ostatue_2_interact.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"ostatue_2_interact","path":"objects/ostatue_2_interact/ostatue_2_interact.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "objects",
-    "path": "folders/SamProject/Objects/objects.yy",
+    "name": "Interactables",
+    "path": "folders/Objects/Interactables.yy",
   },
   "resourceVersion": "1.0",
   "name": "ostatue_2_interact",

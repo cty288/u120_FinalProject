@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"7e4edc5f-90c0-4c35-9fa1-49b5d5888369","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"300471ff-ec7e-4e72-9e5e-5db423b9cffc","path":"sprites/strigger/strigger.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6d3c6421-582a-409b-86f8-2939d3bbaf39","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"300471ff-ec7e-4e72-9e5e-5db423b9cffc","path":"sprites/strigger/strigger.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -60,16 +60,17 @@
     "eventStubScript": null,
     "parent": {"name":"strigger","path":"sprites/strigger/strigger.yy",},
     "resourceVersion": "1.3",
-    "name": "",
+    "name": "strigger",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"533a2de2-9613-4e4c-8cab-236ccb51ba41","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Parent",
-    "path": "folders/SamProject/Sprites/Parent.yy",
+    "path": "folders/Sprites/Parent.yy",
   },
   "resourceVersion": "1.0",
   "name": "strigger",

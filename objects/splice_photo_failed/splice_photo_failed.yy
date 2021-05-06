@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "strigger",
-    "path": "sprites/strigger/strigger.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -24,14 +21,14 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"splice_photo_failed","path":"objects/splice_photo_failed/splice_photo_failed.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"splice_photo_failed","path":"objects/splice_photo_failed/splice_photo_failed.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "CutScene For this project",
-    "path": "folders/SamProject/Objects/CutScene For this project.yy",
+    "path": "folders/Objects/CutScene For this project.yy",
   },
   "resourceVersion": "1.0",
   "name": "splice_photo_failed",

@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "strigger_3",
-    "path": "sprites/strigger_3/strigger_3.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,14 +18,14 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"put_severed_finger_inside_2","path":"objects/put_severed_finger_inside_2/put_severed_finger_inside_2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"put_severed_finger_inside_2","path":"objects/put_severed_finger_inside_2/put_severed_finger_inside_2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "CutScene For this project",
-    "path": "folders/SamProject/Objects/CutScene For this project.yy",
+    "path": "folders/Objects/CutScene For this project.yy",
   },
   "resourceVersion": "1.0",
   "name": "put_severed_finger_inside_2",

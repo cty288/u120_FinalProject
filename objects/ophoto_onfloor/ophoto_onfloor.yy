@@ -21,13 +21,13 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"ophoto_onfloor","path":"objects/ophoto_onfloor/ophoto_onfloor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "objects",
-    "path": "folders/SamProject/Objects/objects.yy",
+    "name": "Interactables",
+    "path": "folders/Objects/Interactables.yy",
   },
   "resourceVersion": "1.0",
   "name": "ophoto_onfloor",

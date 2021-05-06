@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "objects",
-    "path": "folders/SamProject/Objects/objects.yy",
+    "name": "Interactables",
+    "path": "folders/Objects/Interactables.yy",
   },
   "resourceVersion": "1.0",
   "name": "owater_empty",

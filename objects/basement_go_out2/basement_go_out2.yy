@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "strigger_2",
-    "path": "sprites/strigger_2/strigger_2.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -24,14 +21,14 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"basement_go_out2","path":"objects/basement_go_out2/basement_go_out2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"basement_go_out2","path":"objects/basement_go_out2/basement_go_out2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "CutScene For this project",
-    "path": "folders/SamProject/Objects/CutScene For this project.yy",
+    "path": "folders/Objects/CutScene For this project.yy",
   },
   "resourceVersion": "1.0",
   "name": "basement_go_out2",

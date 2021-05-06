@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8115c142-0f70-45f3-a4d3-4bce361702ae","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "UI",
-    "path": "folders/SamProject/Sprites/UI.yy",
+    "path": "folders/Samples/Sprites/UI.yy",
   },
   "resourceVersion": "1.0",
   "name": "sbox3",

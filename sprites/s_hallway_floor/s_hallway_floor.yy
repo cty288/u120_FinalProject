@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d646b2ab-e87f-460d-b62b-d5178826d7f0","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "background",
-    "path": "folders/SamProject/Sprites/background.yy",
+    "path": "folders/Samples/Sprites/background.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_hallway_floor",
