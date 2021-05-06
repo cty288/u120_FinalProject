@@ -175,7 +175,7 @@
   },
   "parent": {
     "name": "Rooms",
-    "path": "folders/SamProject/Rooms.yy",
+    "path": "folders/Samples/Rooms.yy",
   },
   "resourceVersion": "1.0",
   "name": "path_forest",

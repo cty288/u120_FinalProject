@@ -11,7 +11,7 @@ function addChoice() {
 
 	if (instance_exists(otext) and mytextbox!=noone and interacting and !instance_exists(ocutscene) ){
 		
-	    if otext.page=arg[0]{
+	    if otext.page=arg[0] and otext.sprite_index==sbox2{
     
 	    if otext.textcount>=string_length(otext.text){
 
