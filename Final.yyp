@@ -79,7 +79,6 @@
     {"id":{"name":"__background_set","path":"scripts/__background_set/__background_set.yy",},"order":2,},
     {"id":{"name":"C","path":"sprites/C/C.yy",},"order":2,},
     {"id":{"name":"y041","path":"sprites/y041/y041.yy",},"order":35,},
-    {"id":{"name":"menu_background6","path":"sprites/menu_background6/menu_background6.yy",},"order":6,},
     {"id":{"name":"trash_can_search","path":"objects/trash_can_search/trash_can_search.yy",},"order":58,},
     {"id":{"name":"splice_photo_failed","path":"objects/splice_photo_failed/splice_photo_failed.yy",},"order":24,},
     {"id":{"name":"endingshakeCut","path":"scripts/endingshakeCut/endingshakeCut.yy",},"order":35,},
@@ -846,7 +845,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.1.542",
+    "IDEVersion": "2.3.2.560",
   },
   "resourceVersion": "1.4",
   "name": "Final",

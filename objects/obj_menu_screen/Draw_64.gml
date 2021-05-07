@@ -15,3 +15,5 @@ if(msg_start){
 }
 
 draw_text_color(view_wport[0]/2,view_hport[0]/4+100,msg,c_white,c_white,c_white,c_white,msg_alpha);
+draw_text(view_wport[0]/2,view_hport[0]/4,counter);
+draw_text(view_wport[0]/2,view_hport[0]/4-100,image_index);

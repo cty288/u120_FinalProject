@@ -1,6 +1,20 @@
 /// @description Insert description here
 // You can write your code in this editor
 sprite_index=sprites[selected_option];
+image_speed=0
+
+if counter>0
+	counter--
+if counter<=0{
+	if image_index==0{
+		image_index=1
+		counter=choose(5,10,15,20)
+	}
+	else if image_index==1{
+		image_index=0
+		counter=choose(45,60,120,150)
+	}
+}
 
 if(last_mouse_x==mouse_x && last_mouse_y==mouse_y){
 	if(keyboard_check_pressed(vk_left)||keyboard_check_pressed(ord("A"))){
@@ -22,12 +36,14 @@ if(last_mouse_x==mouse_x && last_mouse_y==mouse_y){
 
 	if(keyboard_check_pressed(vk_space)||keyboard_check_pressed(vk_enter)){
 		if(selected_option==0){
-			room_goto(basement);
+			image_index=2
+			alarm[0]=10
 			audio_stop_all();
 		}else if(selected_option==1){
-	
+			image_index=2
 		}else{
-			game_end()
+			image_index=2
+			alarm[1]=10
 		}
 	}
 }else{
