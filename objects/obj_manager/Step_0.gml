@@ -3,9 +3,12 @@ if(global.die){
 	for(var i=0; i<array_length(room_list); i++){
 		room_set_persistent(room_list[i],false);
 	}
-}else{
-	//room_persistent=true;
 
+}else{
+	room_persistent=true;
+	for(var i=0; i<array_length(room_list); i++){
+		room_set_persistent(room_list[i],true);
+	}
 }
 
 
@@ -39,6 +42,7 @@ if(prev_room!=current_room){
 
 if(global.die){
 		persistent=false;
+		instance_destroy();
 	}else{
 		persistent=true;
-	}
+}

@@ -12,7 +12,7 @@ t_scene_info=[
 
 	[pauseCut],
 	[talkCut],
-	[addInventoryCut,instance_find(okitten,0),"Kitten"],
+	[addInventoryCut,instance_find(okitten,0),"Kitten",true],
 	[messageCut,"The kitten followed you! (The kitten has been added to inventory)"],
 	[destroyCut,instance_find(okitten,0)],
 	[destroyCut,instance_find(okitten_interact,0)],

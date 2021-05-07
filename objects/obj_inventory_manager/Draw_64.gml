@@ -11,19 +11,36 @@ if(!instance_exists(otext)&&!instance_exists(omessage)){
 		
 			var obj_sprite=obj.sprite_index;
 			var number=inventory[?inventory_keys[|i]];
-		
-			draw_sprite_stretched(obj_sprite,0,34+4+85*i*0.8,camera_height-100,70,70);
-		
-			draw_set_halign(fa_right);
-			draw_set_valign(fa_bottom);
-			draw_set_font(font_inventory_big);
-			draw_set_color(c_white);
+			if(i!=draw_effect_index){
+				draw_sprite_stretched(obj_sprite,0,34+4+85*i*0.8,camera_height-100,70,70);
 
-			draw_text(30+90*0.8+85*i*0.8,camera_height-20,string(number));
+				draw_set_halign(fa_right);
+				draw_set_valign(fa_bottom);
+				draw_set_font(font_inventory_big);
+				draw_set_color(c_white);
+
+				draw_text(30+90*0.8+85*i*0.8,camera_height-20,string(number));
+			}
 		//}
 
 	}
+	if(draw_effect){
 
+		var target_x=34+4+85*draw_effect_index*0.8;
+		var target_y=camera_height-100;
+		draw_effect_pos_x=lerp(draw_effect_pos_x,target_x,0.1);
+		draw_effect_pos_y=lerp(draw_effect_pos_y,target_y,0.1);
+	
+		if(abs(point_distance(target_x,target_y,draw_effect_pos_x,draw_effect_pos_y)<=30)){
+			draw_effect=false;
+			draw_effect_index=-1;
+		}else{
+				//show_debug_message("111");
+				
+			draw_sprite_stretched(draw_effect_sprite,0,draw_effect_pos_x,draw_effect_pos_y,70,70);
+		}
+	
+	}
 	if(selected_name!=undefined){
 			if(msg_show){
 			draw_set_font(font_inventory_big);
@@ -46,3 +63,5 @@ if(!instance_exists(otext)&&!instance_exists(omessage)){
 	}
 
 }
+	
+	

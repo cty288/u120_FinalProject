@@ -20,7 +20,7 @@ if(!omirror.washed && !omirror.bloody){ //no reversed
 		addChoice(1,"Put photo in front of it","Look closely","Wash it using the water","Leave alone",
 		put_reversed_failed,look_closely_with_photo,wash_mirror,choice_exit);
 	}else{
-		addChoice(1,"Put photo in front of it","Look closely","Leave alone",
+		addChoice(1,"Put the photo in front of it","Look closely","Leave alone",
 		put_reversed_failed,look_closely_with_photo,choice_exit);
 	}
 }else if(omirror.washed && omirror.bloody && !global.mirror_success){ //clean
@@ -28,7 +28,7 @@ if(!omirror.washed && !omirror.bloody){ //no reversed
 	["You",g01,"What should I do with the mirror now?"]
 	]
 	
-	addChoice(0,"Put photo in front of it","Look closely","Leave alone",
+	addChoice(0,"Put the photo in front of it","Look closely","Leave alone",
 	put_reversed_success,look_closely_without_photo,choice_exit);
 }else if(global.mirror_success){
 	text_info=[

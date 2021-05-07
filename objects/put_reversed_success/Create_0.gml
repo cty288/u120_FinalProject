@@ -15,7 +15,7 @@ t_scene_info=[
 	[messageCut,"Then the photo is mirrored back to normal!"],
 	[talkCut],
 	[removeInventoryCut,ophoto_reversed],
-	[addInventoryCut,ophoto_mirrored,"A half of normal photo"], 
+	[addInventoryCut,ophoto_mirrored,"A half of normal photo",true], 
 	[freeCut]
 	
 ];

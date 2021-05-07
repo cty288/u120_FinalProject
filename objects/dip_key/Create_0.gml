@@ -11,7 +11,7 @@ t_scene_info=[
 	[pauseCut],
 	[messageCut,"You dipped the key in the blood, now it turns into a bloody key!"],
 	[removeInventoryCut,okey],
-	[addInventoryCut,obloody_key,"Bloody key"],
+	[addInventoryCut,obloody_key,"Bloody key",false],
 	[talkCut],
 	[freeCut]
 	

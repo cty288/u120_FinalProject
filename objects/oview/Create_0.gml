@@ -11,8 +11,8 @@ ending_target_height=384;
 camera_width=1024
 camera_height=768
 function ending_shake(){
-	var add_x=random_range(-10,10);
-	var add_y=random_range(-10,10);
+	var add_x=random_range(-20,20);
+	var add_y=random_range(-20,20);
 	var camera_x=camera_get_view_x(view_camera[0])
 	var camera_y=camera_get_view_y(view_camera[0])
 	camera_width=lerp(camera_width,ending_target_width,0.4);

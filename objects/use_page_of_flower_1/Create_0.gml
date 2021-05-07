@@ -12,7 +12,7 @@ t_scene_info=[
 
 	[pauseCut],
 	[messageCut,"You fold the page and put it in the vessel, the vessel breaks, you find a key"],
-	[addInventoryCut,okey,"Key"],
+	[addInventoryCut,okey,"Key",true],
 	[talkCut],
 	[freeCut]
 	

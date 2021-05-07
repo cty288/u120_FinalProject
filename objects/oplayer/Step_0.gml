@@ -1,11 +1,5 @@
 depth=-y/32
 
-if(global.die){
-	persistent=false;
-}else{
-	persistent=true;
-	
-}
 
 
 controlMove()

@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_page_of_flower",
-    "path": "sprites/spr_page_of_flower/spr_page_of_flower.yy",
+    "name": "spr_page_of_flower_new",
+    "path": "sprites/spr_page_of_flower_new/spr_page_of_flower_new.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "ointeract",
-    "path": "objects/ointeract/ointeract.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

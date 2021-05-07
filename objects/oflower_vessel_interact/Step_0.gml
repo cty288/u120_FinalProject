@@ -3,7 +3,7 @@ event_inherited()
 if(!global.flower_vessel_opened){
 	if(obj_inventory_manager.has_object(opage_of_flower)){
 		
-	addChoice(0,"Use the page of flower","Look inside","Leave it alone",
+	addChoice(0,"Use the flower page","Look inside","Leave it alone",
 	use_page_of_flower,look_inside_vessel,choice_exit);
 
 	}else{

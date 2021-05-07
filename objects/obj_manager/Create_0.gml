@@ -14,6 +14,7 @@ global.trash_can_search=false;
 global.kitten_died=false;
 global.diary_read=false;
 global.basement_door_opened=false;
+show_debug_message("xxxx");
 
 prev_room="";
 

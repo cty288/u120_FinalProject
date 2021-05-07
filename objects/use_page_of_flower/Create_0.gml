@@ -13,7 +13,7 @@ t_scene_info=[
 	[pauseCut],
 	[soundCut,_221528__unfa__glass_break_01,false,0],
 	[messageCut,"You fold the page and put it in the vessel, the vessel breaks, you find a key"],
-	[addInventoryCut,okey,"Key"],
+	[addInventoryCut,okey,"Key",true],
 	[talkCut],
 	[freeCut]
 	

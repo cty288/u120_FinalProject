@@ -14,8 +14,14 @@ global.kitten_died=false;
 global.diary_read=false;
 global.basement_door_opened=false;
 audio_stop_all();
+if(instance_exists(obj_manager)){
+	instance_destroy();
+}
+if(instance_exists(obj_inventory_manager)){
+	instance_destroy();
+}
 room_list=[basement,hallway,bathroom,bedroom,exhibition_room,statue_room,workshop,final_scene];
-
+audio_play_sound(bgm2,1,true);
 for(var i=0; i<array_length(room_list); i++){
 	room_set_persistent(room_list[i],false);
 }

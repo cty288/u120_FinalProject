@@ -17,17 +17,31 @@ selected_name="";
 msg_show=false;
 name_alpha=0;
 //item sprite <=80*80
-
+draw_effect=false;
+draw_effect_index=-1;
+draw_effect_sprite=noone;
+draw_effect_pos_x=camera_width/2;
+draw_effect_pos_y=camera_height/2;
+animate=true;
 function has_object(obj){
 	var key=object_get_name(obj.object_index);
 	return ds_map_exists(inventory,key);
 }
 
-function add_to_inventory(obj,number,obj_name_this){
+function add_to_inventory(obj,number,obj_name_this,animation){
 	var key=object_get_name(obj.object_index);
 	//show_debug_message(key);
 	if(ds_map_exists(inventory,key)){
-		ds_map_set(inventory,key,ds_map_find_value(inventory,key)+number);	
+		ds_map_set(inventory,key,ds_map_find_value(inventory,key)+number);
+		if(animation){
+			draw_effect_index=ds_list_find_index(inventory_keys,key);
+			draw_effect=true;
+			draw_effect_sprite=obj.sprite_index;
+			draw_effect_pos_x=camera_width/2;
+			draw_effect_pos_y=camera_height/2;
+			animate=animation;
+		}
+
 		return ds_list_find_index(inventory_keys,key);
 	}else{
 		if(size<capacity){
@@ -36,6 +50,15 @@ function add_to_inventory(obj,number,obj_name_this){
 			ds_list_add(inventory_keys,key);
 			ds_list_add(inventory_names,obj_name_this);
 			size++;
+			if(animation){
+				draw_effect_index=size-1;
+				draw_effect=true;
+				draw_effect_sprite=obj.sprite_index;
+				draw_effect_pos_x=camera_width/2;
+				draw_effect_pos_y=camera_height/2;
+				animate=animation;
+			}
+
 			return size-1;
 		}else{
 			//full
@@ -43,6 +66,7 @@ function add_to_inventory(obj,number,obj_name_this){
 		}
 	}
 }
+
 
 function remove_from_inventory(obj,number){
 	var key=object_get_name(obj.object_index);

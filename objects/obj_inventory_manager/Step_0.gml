@@ -28,6 +28,7 @@ if(!instance_exists(otext)){
 
 if(global.die){
 	persistent=false;
+//instance_destroy();
 }else{
 	persistent=true;
 }

@@ -13,7 +13,7 @@ t_scene_info=[
 
 	[pauseCut],
 	[messageCut,"You open the book, a page with flowers fall out and added to the inventory"],
-	[addInventoryCut,opage_of_flower,"Page of Flower"],
+	[addInventoryCut,opage_of_flower,"Page of Flower",true],
 	[talkCut],
 	[freeCut]
 	

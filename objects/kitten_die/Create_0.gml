@@ -14,6 +14,7 @@ t_scene_info=[
 	[soundCut,cat_die,false,0],
 	[messageCut,"The statue suddenly squeeze kitten"],
 	[messageCut,"The kitten dies in front of you"],
+	[placeCut,odead_kitten,224,288],
 	[talkCut],
 	[soundCut,door_open,false,0],
 	[waitCut,room_speed],

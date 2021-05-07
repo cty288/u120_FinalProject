@@ -13,7 +13,7 @@ t_scene_info=[
 	[waitCut,room_speed],
 	[talkCut],
 	[messageCut,"The kitten searched under the bed, and brings you back an empty bottle."], 
-	[addInventoryCut,instance_find(owater_empty,0),"An empty water bottle"],
+	[addInventoryCut,instance_find(owater_empty,0),"An empty water bottle",false],
 	[freeCut]
 	
 ];

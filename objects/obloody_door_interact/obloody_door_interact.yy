@@ -3,7 +3,7 @@
     "name": "sinteract",
     "path": "sprites/sinteract/sinteract.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": false,
   "spriteMaskId": null,
   "persistent": false,

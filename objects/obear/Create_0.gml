@@ -5,5 +5,5 @@ global.bear_bloddy=false;
 
 
 text_info=[
-	["PLAYER",g01,"An anbandoned Teddy bear."],
+	["PLAYER",g01,"An abandoned Teddy bear."],
 	]

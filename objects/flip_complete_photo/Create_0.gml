@@ -23,6 +23,7 @@ t_scene_info=[
 	[soundCut,door_open,false,0],
 	[waitCut,room_speed],
 	[talkCut],
+	[soundCut,bong,false,0],
 	[spriteCut,ophoto_onfloor,s_photo_complete_bloody],
 	[shaderCut,s_photo_complete_bloody_big,1,1],
 	[waitCut,room_speed],
