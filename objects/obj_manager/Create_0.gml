@@ -8,12 +8,12 @@ global.die=false;
 global.severed_finger_cut=false;
 global.mirror_success=false;
 global.splice_success=false;
-global.complete_photo_flipped=true;
+global.complete_photo_flipped=false;
 global.kitten_eat_fish=false;
 global.trash_can_search=false;
-global.kitten_died=true;
+global.kitten_died=false;
 global.diary_read=false;
-global.basement_door_opened=true;
+global.basement_door_opened=false;
 
 prev_room="";
 
@@ -38,10 +38,21 @@ ds_map_add(room_volume,"exhibition_room",[0.8]);
 ds_map_add(room_volume,"workshop",[0.4]);
 
 function restart(){
-	global.state=game_state.start;
-	prev_room="";
-	global.die=false;
+	global.finger_added=false;
+	global.state=game_state.in_game;
 	global.severed_finger_cut=false;
+	global.mirror_success=false;
+	global.splice_success=false;
+	persistent=false;
+	global.complete_photo_flipped=true;
+	global.kitten_eat_fish=false;
+	global.trash_can_search=false;
+	global.kitten_died=true;
+	global.diary_read=false;
+	global.basement_door_opened=true;
+	audio_stop_all();
+	oplayer.reset();
+	//room_goto(basement);
 }
 
 

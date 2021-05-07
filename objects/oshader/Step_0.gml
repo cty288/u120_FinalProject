@@ -4,3 +4,9 @@
 	y=camera_get_view_y(view_camera[0]);
 	alpha=timer/30
 	depth=-750
+	
+	if(global.die){
+		persistent=false;
+	}else{
+		perisistent=true;
+	}

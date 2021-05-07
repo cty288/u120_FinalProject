@@ -1,9 +1,12 @@
 depth=-y/32
 
-if room_persistent=false
-    room_persistent=true
-if oplayer.persistent=false
-    oplayer.persistent=true
+if(global.die){
+	persistent=false;
+}else{
+	persistent=true;
+	
+}
+
 
 controlMove()
 

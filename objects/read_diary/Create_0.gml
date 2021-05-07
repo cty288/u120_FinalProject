@@ -9,9 +9,9 @@ text_info=[
 text_info2=[
 	["You",g01,"Wait..."],
 	["You",g01,"MOM!!!"],
-	["Mother",g01,"YOU STOLE MY DIARY!"],
+	["Mother",mother_avator,"YOU STOLE MY DIARY!"],
 	["You",g01,"Mother, it's me! I am your son!!"],
-	["Mother",g01,"All of you should die!!"],
+	["Mother",mother_avator,"All of you should die!!"],
 	["You",g01,"Mother, please forgive me..."],
 ]
 

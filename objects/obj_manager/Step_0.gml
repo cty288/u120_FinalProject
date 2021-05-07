@@ -4,7 +4,7 @@ if(global.die){
 		room_set_persistent(room_list[i],false);
 	}
 }else{
-	room_persistent=true;
+	//room_persistent=true;
 
 }
 
@@ -36,3 +36,9 @@ if(prev_room!=current_room){
 	}
 
 }
+
+if(global.die){
+		persistent=false;
+	}else{
+		persistent=true;
+	}

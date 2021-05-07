@@ -44,6 +44,7 @@ function controlMove() {
 
 	if !instance_exists(ocutscene){
 
+	
 	if mtr<=0 and mtd<=0 and mtl<=0 and mtu<=0 and mystate=0{
 
 	if prem=1{

@@ -3,6 +3,10 @@ if(msg_show){
 	draw_set_halign(fa_middle);
 	if(name_alpha<=1){
 		name_alpha+=0.05;
+	}else{
+		oview.shake=false;
+		camera_set_view_pos(view_camera[0],0,0);
+
 	}
 		
 	draw_text_color(camera_width/2,
@@ -11,6 +15,7 @@ if(msg_show){
 	
 	draw_sprite_ext(spr_ending_restart_button,0,camera_width/2,
 	camera_height-camera_height/4,0.3,0.3,0,c_white,name_alpha);
+	
 }
 /*else{
 	name_alpha-=0.05;

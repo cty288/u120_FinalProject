@@ -10,3 +10,4 @@ name_alpha=0;
 
 na="";
 depth=-800
+global.die=true;

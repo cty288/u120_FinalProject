@@ -15,4 +15,17 @@ mtd=0
 mtu=0
 mtl=0
 
+function reset(){
+ms=0
+msu=0
+mss=0
 
+mystate=0
+
+
+mtr=0
+mtd=0
+mtu=0
+mtl=0
+
+}

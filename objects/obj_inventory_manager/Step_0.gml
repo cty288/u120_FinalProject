@@ -24,3 +24,10 @@ if(!instance_exists(otext)){
 	}
 
 }
+
+
+if(global.die){
+	persistent=false;
+}else{
+	persistent=true;
+}
