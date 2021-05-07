@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"53f14ed5-ec3a-40a6-a119-267bb046d150","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
-    "name": "interactable",
-    "path": "folders/SamProject/Sprites/interactable.yy",
+    "name": "Interactable",
+    "path": "folders/Sprites/Interactable.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_decoration3",

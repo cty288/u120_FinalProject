@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"05f6633b-9fb0-4051-b728-1aff1fe301b5","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
-    "name": "interactable",
-    "path": "folders/SamProject/Sprites/interactable.yy",
+    "name": "Interactable",
+    "path": "folders/Sprites/Interactable.yy",
   },
   "resourceVersion": "1.0",
   "name": "basement_wall_1",

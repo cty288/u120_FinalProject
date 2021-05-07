@@ -1,6 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(!instance_exists(otext)&&!instance_exists(omessage)){
+if instance_exists(otext){
+	if otext.y=camera_get_view_y(view_camera[0])+480-144
+		draw=false
+}
+else
+	draw=true
+if draw{
 	draw_sprite_ext(spr_game_inventory162,0,30,camera_height-100,2,2,0,c_white,1);
 	draw_sprite_ext(spr_inventory_selection_strip2,image_index,30+4+select_index*85*0.4*2,camera_height-100+2*2,2,2,0,c_white,1);
 	
@@ -62,6 +68,6 @@ if(!instance_exists(otext)&&!instance_exists(omessage)){
 		}
 	}
 
+
 }
-	
 	

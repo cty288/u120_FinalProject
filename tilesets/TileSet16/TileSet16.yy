@@ -5361,8 +5361,8 @@
     "TileSerialiseData": [],
   },
   "parent": {
-    "name": "tileset",
-    "path": "folders/SamProject/Tile Sets/tileset.yy",
+    "name": "Tile Sets",
+    "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
   "name": "TileSet16",

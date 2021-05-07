@@ -32,8 +32,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Systemic  Objects (Managers)",
-    "path": "folders/Objects/Systemic  Objects (Managers).yy",
+    "name": "Systems",
+    "path": "folders/Objects/Systems.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_menu_screen",

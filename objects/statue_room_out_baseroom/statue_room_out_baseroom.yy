@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "strigger_4",
-    "path": "sprites/strigger_4/strigger_4.yy",
+    "name": "strigger",
+    "path": "sprites/strigger/strigger.yy",
   },
   "solid": true,
   "visible": true,
@@ -24,14 +24,14 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"statue_room_out_baseroom","path":"objects/statue_room_out_baseroom/statue_room_out_baseroom.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"statue_room_out_baseroom","path":"objects/statue_room_out_baseroom/statue_room_out_baseroom.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "CutScene For this project",
-    "path": "folders/SamProject/Objects/CutScene For this project.yy",
+    "name": "CutScenes",
+    "path": "folders/Objects/CutScenes.yy",
   },
   "resourceVersion": "1.0",
   "name": "statue_room_out_baseroom",

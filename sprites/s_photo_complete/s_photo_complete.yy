@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"867c04f1-4726-4bf5-9a23-4baf2c51e904","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
-    "name": "interactable",
-    "path": "folders/SamProject/Sprites/interactable.yy",
+    "name": "Interactable",
+    "path": "folders/Sprites/Interactable.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_photo_complete",

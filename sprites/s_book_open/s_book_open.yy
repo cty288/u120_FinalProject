@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d76ef208-161b-4817-a042-af186c6ebb65","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
-    "name": "interactable",
-    "path": "folders/SamProject/Sprites/interactable.yy",
+    "name": "Interactable",
+    "path": "folders/Sprites/Interactable.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_book_open",

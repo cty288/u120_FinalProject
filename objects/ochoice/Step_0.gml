@@ -4,13 +4,13 @@ image_xscale=1.1;
 
 x=240+camera_get_view_x(view_camera[0]);
 y=240;
-if keyboard_check_pressed(vk_down){
+if keyboard_check_pressed(vk_down) or keyboard_check_pressed(ord("S")){
     if menu_index<menu_max-1
         menu_index++
     else
         menu_index=0
 }
-if keyboard_check_pressed(vk_up){
+if keyboard_check_pressed(vk_up) or keyboard_check_pressed(ord("W")){
     if menu_index>0
         menu_index--
     else

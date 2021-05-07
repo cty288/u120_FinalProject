@@ -1,9 +1,9 @@
 {
   "isDnD": false,
-  "isCompatibility": true,
+  "isCompatibility": false,
   "parent": {
-    "name": "instance",
-    "path": "folders/SamProject/Scripts/compatibility/instance.yy",
+    "name": "compatibility",
+    "path": "folders/Scripts/compatibility.yy",
   },
   "resourceVersion": "1.0",
   "name": "instance_create",

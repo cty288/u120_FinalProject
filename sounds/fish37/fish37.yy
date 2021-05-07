@@ -13,8 +13,8 @@
   "soundFile": "fish37.wav",
   "duration": 31.7063332,
   "parent": {
-    "name": "Final",
-    "path": "Final.yyp",
+    "name": "Sounds",
+    "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "fish37",

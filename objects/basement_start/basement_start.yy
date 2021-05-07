@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "CutScene For this project",
-    "path": "folders/SamProject/Objects/CutScene For this project.yy",
+    "name": "CutScenes",
+    "path": "folders/Objects/CutScenes.yy",
   },
   "resourceVersion": "1.0",
   "name": "basement_start",

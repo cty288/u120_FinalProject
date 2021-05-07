@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Character",
-    "path": "folders/SamProject/Objects/Character.yy",
+    "name": "Characters",
+    "path": "folders/Objects/Characters.yy",
   },
   "resourceVersion": "1.0",
   "name": "Mother",

@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fbd9d78f-bbc4-4beb-a87f-12fb95d5a60d","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "shader",
-    "path": "folders/SamProject/Sprites/shader.yy",
+    "path": "folders/Samples/Sprites/shader.yy",
   },
   "resourceVersion": "1.0",
   "name": "black",

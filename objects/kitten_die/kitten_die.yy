@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "strigger_6",
-    "path": "sprites/strigger_6/strigger_6.yy",
+    "name": "strigger",
+    "path": "sprites/strigger/strigger.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,14 +24,14 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"kitten_die","path":"objects/kitten_die/kitten_die.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"kitten_die","path":"objects/kitten_die/kitten_die.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "CutScene For this project",
-    "path": "folders/SamProject/Objects/CutScene For this project.yy",
+    "name": "CutScenes",
+    "path": "folders/Objects/CutScenes.yy",
   },
   "resourceVersion": "1.0",
   "name": "kitten_die",

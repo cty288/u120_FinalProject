@@ -1,11 +1,14 @@
 {
   "spriteId": {
-    "name": "strigger_4",
-    "path": "sprites/strigger_4/strigger_4.yy",
+    "name": "strigger",
+    "path": "sprites/strigger/strigger.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "strigger",
+    "path": "sprites/strigger/strigger.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "otrigger",
@@ -24,14 +27,14 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"workshop_go_out","path":"objects/workshop_go_out/workshop_go_out.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"workshop_go_out","path":"objects/workshop_go_out/workshop_go_out.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "CutScene For this project",
-    "path": "folders/SamProject/Objects/CutScene For this project.yy",
+    "name": "CutScenes",
+    "path": "folders/Objects/CutScenes.yy",
   },
   "resourceVersion": "1.0",
   "name": "workshop_go_out",

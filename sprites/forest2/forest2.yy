@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9a158329-92e7-4915-a6f8-4978b87aae6e","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "background",
-    "path": "folders/SamProject/Sprites/background.yy",
+    "path": "folders/Samples/Sprites/background.yy",
   },
   "resourceVersion": "1.0",
   "name": "forest2",

@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"95d7ea70-0014-420c-b0af-103598241ce2","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Face",
-    "path": "folders/SamProject/Sprites/Face.yy",
+    "path": "folders/Samples/Sprites/Face.yy",
   },
   "resourceVersion": "1.0",
   "name": "n0102",

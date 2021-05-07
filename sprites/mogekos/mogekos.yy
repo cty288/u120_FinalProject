@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"64654f84-9c18-4cab-af0d-e817c97b2ec9","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "shader",
-    "path": "folders/SamProject/Sprites/shader.yy",
+    "path": "folders/Samples/Sprites/shader.yy",
   },
   "resourceVersion": "1.0",
   "name": "mogekos",

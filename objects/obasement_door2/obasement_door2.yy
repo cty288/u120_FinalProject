@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sinteract_1",
-    "path": "sprites/sinteract_1/sinteract_1.yy",
-  },
+  "spriteId": null,
   "solid": true,
   "visible": false,
   "spriteMaskId": null,
@@ -30,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "objects",
-    "path": "folders/SamProject/Objects/objects.yy",
+    "name": "Interactables",
+    "path": "folders/Objects/Interactables.yy",
   },
   "resourceVersion": "1.0",
   "name": "obasement_door2",

@@ -1,9 +1,9 @@
 {
   "isDnD": false,
-  "isCompatibility": true,
+  "isCompatibility": false,
   "parent": {
     "name": "view",
-    "path": "folders/SamProject/Scripts/compatibility/view.yy",
+    "path": "folders/Scripts/compatibility/view.yy",
   },
   "resourceVersion": "1.0",
   "name": "__init_view",

@@ -13,7 +13,7 @@ function addChoice() {
 		
 	    if otext.page=arg[0] and otext.sprite_index==sbox2{
     
-	    if otext.textcount>=string_length(otext.text){
+	    if otext.textcount>=string_length(otext.text) and (otext.sprite_index==sbox2 or otext.sprite_index==sbox5){
 
 	    switch(argument_count){
 	        case 0 : break;
@@ -22,7 +22,7 @@ function addChoice() {
 	        case 3 : break;
 	        case 4 : break;
 	        case 5 : 
-	            if !instance_exists(ochoice)
+	            if !instance_exists(ochoice) 
 	            c= instance_create(camera_get_view_x(view_camera[0])+240,240,ochoice); //change this
 	            with c{
 	                menu_max=2
